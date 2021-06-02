@@ -1,0 +1,193 @@
+html{
+    height: 100%;
+}
+body{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    color:rgba(0,0,0,.7);
+    display: block;
+    font-family: "Quicksand", Arial, sans-serif;
+    height: 100%;
+    background-color: #f6f6f6;
+}
+
+.aside{
+    padding-top: 3em;
+    padding-bottom: 40px;
+    top: 0;
+    position: fixed;
+    overflow-y: scroll;
+    z-index: 1001;
+    background: #f2f3f7;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    height: 100vh;
+}
+
+.text-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-center .author-img{
+    background-image: url(./poto.jpg);
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.text-center .full-name a{
+    display: block;
+    color: #000;
+    padding-right: .3em;
+    transition: .5s;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.text-center .position{
+    display: block;
+    margin-bottom: 2em;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.text-center .position a {
+    text-decoration: none;
+    transition: .5s;
+    color: #2c98f0;
+    background-color: transparent;
+}
+
+.footer{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+    width: 100%;
+}
+
+.navbar ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar ul li{
+    margin: 0 0 10px;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar ul li a{
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    transition: 0.3s;
+    color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    font-family: "Quicksand", Arial, sans-serif;
+    cursor: pointer;
+}
+
+.navbar ul li a.active{
+    color: #2c98f0;
+}
+
+.navbar ul li a.anchor:hover{
+    color: black;
+}
+
+.navbar ul li a.active:hover{
+    color: #2c98f0;
+}
+
+.navbar ul li a.anchor:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.navbar ul li a.anchor:hover:after {
+    width: 100%;
+    background: #2c98f0;
+} 
+
+.navbar ul li a.active:after {
+    width: 100%;
+    background: #2c98f0;
+} 
+
+.content .element1{
+    padding-top: 4em;
+    padding-bottom: 9em;
+    display: block;
+}
+
+.content .element1 .about .heading-meta{
+    font-size: 18px;
+    margin-bottom: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+}
+
+.vertical-timeline-element--work .vertical-timeline-element-date {
+    color: black;
+}
+
+.content .element1 .experience .heading-meta{
+    font-size: 18px;
+    margin-bottom: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+}
+
+.heading-meta{
+    font-size: 18px;
+    margin-bottom: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+}
+
+.wrap{
+    margin-bottom: 4em;
+}
+
+.wrap-skill{
+    text-align: center;
+    color: #999999;
+}

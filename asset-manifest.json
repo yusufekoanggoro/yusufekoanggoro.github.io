@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.518ec093.chunk.css",
+    "main.js": "./static/js/main.84505cc9.chunk.js",
+    "main.js.map": "./static/js/main.84505cc9.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.a5266199.js",
+    "runtime-main.js.map": "./static/js/runtime-main.a5266199.js.map",
+    "static/css/2.647452ff.chunk.css": "./static/css/2.647452ff.chunk.css",
+    "static/js/2.33b6da09.chunk.js": "./static/js/2.33b6da09.chunk.js",
+    "static/js/2.33b6da09.chunk.js.map": "./static/js/2.33b6da09.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.caad34244a46222956aff012eac5415c.js": "./precache-manifest.caad34244a46222956aff012eac5415c.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.647452ff.chunk.css.map": "./static/css/2.647452ff.chunk.css.map",
+    "static/css/main.518ec093.chunk.css.map": "./static/css/main.518ec093.chunk.css.map",
+    "static/js/2.33b6da09.chunk.js.LICENSE.txt": "./static/js/2.33b6da09.chunk.js.LICENSE.txt",
+    "static/media/NewLandingPage.css": "./static/media/poto.68ff51c5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5266199.js",
+    "static/css/2.647452ff.chunk.css",
+    "static/js/2.33b6da09.chunk.js",
+    "static/css/main.518ec093.chunk.css",
+    "static/js/main.84505cc9.chunk.js"
+  ]
+}
