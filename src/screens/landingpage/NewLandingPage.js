@@ -274,13 +274,13 @@ class NewLandingPage extends Component{
                             </a>
                         </div>
                         <div className='contact'>
-                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/yusuf-eko-anggoro-bb6799147/"><FaLinkedin className='linkedin' color='#0077B5' size={35} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/yousufe24/"><FaLinkedin className='linkedin' color='#0077B5' size={35} /></a>
                         </div>
                         <div className='contact'>
                             <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/yousufe24/"><FaInstagram className='ig' color='red' size={35} /></a>
                         </div>
                         <div className='contact'>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/otakrobot"><FaGithub color="black" size={35} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/yusufekoanggoro"><FaGithub color="black" size={35} /></a>
                         </div>
                     </Element>
                 </main>
