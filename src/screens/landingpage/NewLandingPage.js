@@ -22,6 +22,7 @@ class NewLandingPage extends Component{
             menu: [
                 {name: 'About', stts: 'active'},
                 {name: 'Skills', stts: ''},
+                {name: 'Portfolio', stts: ''},
                 {name: 'Education', stts: ''},
                 {name: 'Experience', stts: ''},
                 {name: 'Contact', stts: ''}
@@ -79,20 +80,24 @@ class NewLandingPage extends Component{
     handleClickMenu = (arg) => { 
         const menu= [
             {name: "About", stts: ""},
+            {name: "Skills", stts: ""},
+            {name: "Portfolio", stts: ""},
             {name: "Education", stts: ""},
             {name: "Experience", stts: ""},
-            {name: "Contact", stts: ""}
+            {name: "Contact", stts: ""},
         ];
         if(arg === "About"){
             menu[0].stts = "active"
         }else if(arg === "Skills"){
             menu[1].stts = "active"
-        }else if(arg === "Education"){
+        }else if(arg === "Portfolio"){
             menu[2].stts = "active"
-        }else if(arg === "Experience"){
+        }else if(arg === "Education"){
             menu[3].stts = "active"
-        }else if(arg === "Contact"){
+        }else if(arg === "Experience"){
             menu[4].stts = "active"
+        }else if(arg === "Contact"){
+            menu[5].stts = "active"
         }
         this.setState({menu,open: !this.state.open});
     }
@@ -197,7 +202,7 @@ class NewLandingPage extends Component{
                     <Element name="About" className="element1">
                         <h2 className="heading-meta">About Us</h2>
                         <div className='desc'>
-                            <p><strong>Hi I'm Yusuf Eko Anggoro</strong> i love everything about code, I am really enjoy learning new things, especialy about latest techology. 
+                            <p><strong>Hi, I'm Yusuf Eko Anggoro</strong> or commonly called Ucup. I am a Software Engineer who has an interest in web development, mobile app development, and backend development. I love everything about code, I am really enjoy learning new things, especialy about latest techology. 
                             I have a goal to help other with technology especially programming and I will try to solve the problem.
                             </p>
                         </div>
@@ -222,7 +227,20 @@ class NewLandingPage extends Component{
                             <DiStackoverflow size={150} />
                         </div>
                     </Element>
-                    <Element name="Education" className="element3">
+                    <Element name="Portfolio" className="element3">
+                        <h2 className="heading-meta">Portfolio</h2>
+                        <Collapse style={{marginBottom: '7px'}} accordion={true}>
+                            <Panel header="WhatsApp Bot" headerClass="my-header-class">
+                                Here's the web demo <a href="https://wa-chat-bot-js.herokuapp.com/public">WhatsApp Bot</a>
+                            </Panel>
+                        </Collapse>
+                        <Collapse accordion={true}>
+                            <Panel header="Api Downloader Youtube to Mp3" headerClass="my-header-class">
+                                Here's the web demo <a href="http://converter-yt-mp3.herokuapp.com/">Youtube to Mp3</a>
+                            </Panel>
+                        </Collapse>
+                    </Element>
+                    <Element name="Education" className="element4">
                         <h2 className="heading-meta">Education</h2>
                         <Collapse style={{marginBottom: '7px'}} accordion={true}>
                             <Panel header="Indraprasta PGRI University" headerClass="my-header-class">Coming Soon</Panel>
@@ -234,9 +252,9 @@ class NewLandingPage extends Component{
                             </Panel>
                         </Collapse>
                     </Element>
-                    <Element name="Experience" className="element4">
+                    <Element name="Experience" className="element5">
                         <h2 className="heading-meta">Experience</h2>
-                        <VerticalTimeline>
+                        <VerticalTimeline lineColor="#f2f3f7" layout="1-column-left">
                             <VerticalTimelineElement
                                 className="vertical-timeline-element--work"
                                 contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -267,7 +285,7 @@ class NewLandingPage extends Component{
                             </VerticalTimelineElement>
                         </VerticalTimeline>
                     </Element>
-                    <Element name="Contact" className="element5">
+                    <Element name="Contact" className="element6">
                         <div className='contact'>
                             <a target="_blank" rel="noopener noreferrer" href="https://web.facebook.com/yusuf.e.3591">
                                 <FaFacebook color='#385898' size={35} />

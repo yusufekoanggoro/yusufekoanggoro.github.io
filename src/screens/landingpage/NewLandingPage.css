@@ -158,11 +158,13 @@ aside .footer{
 main{
     display: grid;
     grid-template-columns: 300px auto;
-    grid-template-areas: 'aside element1'
+    grid-template-areas: 
+        'aside element1'
         'aside element2'
         'aside element3'
         'aside element4'
-        'aside element5';
+        'aside element5'
+        'aside element6';
     grid-auto-rows: minmax(min-content, max-content);
 }
 
@@ -184,6 +186,7 @@ main .element3{
     padding: 2.5em;
     padding-bottom: 9em;
 }
+
 main .element5{
     padding-top: 4em;
     grid-area: element5;
@@ -193,6 +196,13 @@ main .element5{
 main .element4{
     padding-top: 4em;
     grid-area: element4;
+    padding: 2.5em;
+    padding-bottom: 9em;
+}
+
+main .element6{
+    padding-top: 4em;
+    grid-area: element6;
     padding: 2.5em;
     padding-bottom: 9em;
 }
@@ -221,7 +231,7 @@ main .element4 .vertical-timeline-element--work .vertical-timeline-element-date 
     color: black;
 }
 
-main .element5 {
+/* main .element5 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -232,6 +242,20 @@ main .element5 {
 }
 
 main .element5 .contact{
+    margin-right: 20px;
+} */
+
+main .element6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+    background-color: #f2f3f7;
+}
+
+main .element6 .contact{
     margin-right: 20px;
 }
 
