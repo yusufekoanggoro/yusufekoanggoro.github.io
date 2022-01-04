@@ -315,7 +315,8 @@ display: none;
             'element2'
             'element3'
             'element4'
-            'element5';
+            'element5'
+            'element6';
         /* grid-auto-rows: minmax(min-content, max-content); */
     }
     main .burger{
