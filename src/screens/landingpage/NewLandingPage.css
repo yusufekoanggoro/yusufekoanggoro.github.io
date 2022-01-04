@@ -267,6 +267,14 @@ main .element3 .my-header-class{
     font-family: "Quicksand", Arial, sans-serif;
 }
 
+main .element4 .my-header-class{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Quicksand", Arial, sans-serif;
+}
+
 .my-menu{
     display: none;
 }

@@ -231,12 +231,12 @@ class NewLandingPage extends Component{
                         <h2 className="heading-meta">Portfolio</h2>
                         <Collapse style={{marginBottom: '7px'}} accordion={true}>
                             <Panel header="WhatsApp Bot" headerClass="my-header-class">
-                                Here's the web demo <a href="https://wa-chat-bot-js.herokuapp.com/public">WhatsApp Bot</a>
+                                Here's the web demo <a rel="noopener noreferrer" target="_blank" href="https://wa-chat-bot-js.herokuapp.com/public">WhatsApp Bot</a>
                             </Panel>
                         </Collapse>
                         <Collapse accordion={true}>
                             <Panel header="Api Downloader Youtube to Mp3" headerClass="my-header-class">
-                                Here's the web demo <a href="http://converter-yt-mp3.herokuapp.com/">Youtube to Mp3</a>
+                                Here's the web demo <a rel="noopener noreferrer" target="_blank" href="http://converter-yt-mp3.herokuapp.com/">Youtube to Mp3</a>
                             </Panel>
                         </Collapse>
                     </Element>
@@ -247,8 +247,7 @@ class NewLandingPage extends Component{
                         </Collapse>
                         <Collapse accordion={true}>
                             <Panel header="[Graduated] Vocational High School 24 Jakarta" headerClass="my-header-class">
-                                Learn to create a website with framework Laravel, create mobile app with Java using IDE Android Studio, create desktop app with Java using IDE Netbeans and 
-                                database used is Mysql.
+                                Learn and explore all the ways of software development including making software, maintenance, software development organization management and quality management. Not only that, I also learned computer software from making websites, applications and everything related to programming by mastering the programming language.
                             </Panel>
                         </Collapse>
                     </Element>
