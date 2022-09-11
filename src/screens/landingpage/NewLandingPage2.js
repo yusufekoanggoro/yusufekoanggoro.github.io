@@ -190,7 +190,7 @@ class NewLandingPage extends Component{
                         <Element name="About" className="about-wrap">
                             <h2 className="heading-meta">About Us</h2>
                             <div className='desc'>
-                                <p>
+                                <p style={{textAlign: 'justify', textJustify: 'inter-word'}}>
                                     <strong>Hi, I'm Yusuf Eko Anggoro</strong> or commonly called Ucup.
                                     I am a back-end developer with 3+ years of experience building, developing, implementing <strong>Test Driven Development</strong>, and maintaining.
                                     I love everything about code, I really enjoy learning new things, especially about the latest technology.
@@ -211,7 +211,7 @@ class NewLandingPage extends Component{
                                 >
                                     <h5 className="vertical-timeline-element-title">Back-End Developer at Telkom Indonesia</h5>
                                     <p>
-                                        <ul>
+                                        <ul style={{textAlign: 'justify', textJustify: 'inter-word'}}>
                                             <li>
                                                 Building, developing, implementing Test Driven Development, analysis and maintaining microservices architecture such as gamification service, ticket service, notification service, user service and worker service. RESTful APIs or Apache Kafka function as the glue that integrates the microservices into application.
                                             </li>
@@ -239,17 +239,17 @@ class NewLandingPage extends Component{
                                     icon={<FaPencilAlt/>}
                                 >
                                     <h5 className="vertical-timeline-element-title">Graduated as Full Stack Developer at Arkademy</h5>
-                                    <p>Focus on mobile development with react native and Node.js.</p>
+                                    <p style={{textAlign: 'justify', textJustify: 'inter-word'}}>Focus on mobile development with react native and Node.js.</p>
                                 </VerticalTimelineElement>
                             </VerticalTimeline>
                         </Element>
                         <Element name="Education" className="education-wrap">
                             <h2 className="heading-meta">Education</h2>
                             <Collapse defaultActiveKey="0" style={{marginBottom: '7px'}} accordion={true}>
-                                <Panel header="Indraprasta PGRI University" headerClass="my-header-class">Coming Soon</Panel>
+                                <Panel style={{textAlign: 'justify', textJustify: 'inter-word'}} header="Indraprasta PGRI University" headerClass="my-header-class">Coming Soon</Panel>
                             </Collapse>
                             <Collapse defaultActiveKey="0" accordion={true}>
-                                <Panel header="[Graduated] Vocational High School 24 Jakarta" headerClass="my-header-class">
+                                <Panel style={{textAlign: 'justify', textJustify: 'inter-word'}} header="[Graduated] Vocational High School 24 Jakarta" headerClass="my-header-class">
                                     Learn and explore all the ways of software development including making software, maintenance, software development organization management and quality management. Not only that, I also learned computer software from making websites, applications and everything related to programming by mastering the programming language.
                                 </Panel>
                             </Collapse>
@@ -259,7 +259,7 @@ class NewLandingPage extends Component{
                             <Collapse defaultActiveKey="0" accordion={true} style={{marginBottom: '7px'}}>
                                 <Panel header="Back-End" headerClass="my-header-class backend">
                                     <p>
-                                        <ul>
+                                        <ul style={{textAlign: 'justify', textJustify: 'inter-word'}}>
                                             <li>Programming Languages: PHP, Javascript, Golang</li>
                                             <li>Back-end Technologies: Express.js, Golang, Laravel</li>
                                             <li>Web Technologies: HTML, JavaScript, CSS, React, Typescript, Laravel</li>
