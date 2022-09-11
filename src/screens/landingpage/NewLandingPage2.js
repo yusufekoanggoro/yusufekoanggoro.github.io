@@ -262,7 +262,6 @@ class NewLandingPage extends Component{
                                         <ul style={{textAlign: 'justify', textJustify: 'inter-word'}}>
                                             <li>Programming Languages: PHP, Javascript, Golang</li>
                                             <li>Back-end Technologies: Express.js, Golang, Laravel</li>
-                                            <li>Web Technologies: HTML, JavaScript, CSS, React, Typescript, Laravel</li>
                                             <li>Development Tools (IDEs): Visual Studio Code</li>
                                             <li>Version Control: GIT</li>
                                             <li>RDBMS: MySQL, Oracle, PostgreSQL</li>
