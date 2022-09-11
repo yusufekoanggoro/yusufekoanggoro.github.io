@@ -202,8 +202,11 @@ class NewLandingPage extends Component{
                     <Element name="About" className="element1">
                         <h2 className="heading-meta">About Us</h2>
                         <div className='desc'>
-                            <p><strong>Hi, I'm Yusuf Eko Anggoro</strong> or commonly called Ucup. I am a Software Engineer who has an interest in web development, mobile app development, and backend development. I love everything about code, I am really enjoy learning new things, especialy about latest techology. 
-                            I have a goal to help other with technology especially programming and I will try to solve the problem.
+                            <p>
+                                <strong>Hi, I'm Yusuf Eko Anggoro</strong> or commonly called Ucup.
+                                I am a back-end developer with 3+ years of experience building, developing, implementing <strong>Testing Driven Development</strong>, and maintaining.
+                                I love everything about code, i am really enjoy learning new things, especialy about latest techology.
+                                My current back-end language is <strong>PHP</strong>, <strong>JavaScript</strong> and <strong>Golang</strong>.
                             </p>
                         </div>
                     </Element>

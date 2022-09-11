@@ -4,7 +4,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-vertical-timeline-component/style.min.css';
-import LandingPage from './screens/landingpage/NewLandingPage';
+import LandingPage from './screens/landingpage/NewLandingPage2';
 
 ReactDOM.render(<LandingPage />, document.getElementById('root'));
 
