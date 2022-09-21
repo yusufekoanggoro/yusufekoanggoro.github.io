@@ -246,10 +246,10 @@ class NewLandingPage extends Component{
                         <Element name="Education" className="education-wrap">
                             <h2 className="heading-meta">Education</h2>
                             <Collapse defaultActiveKey="0" style={{marginBottom: '7px'}} accordion={true}>
-                                <Panel style={{textAlign: 'justify', textJustify: 'inter-word'}} header="Indraprasta PGRI University" headerClass="my-header-class">Coming Soon</Panel>
+                                <Panel style={{textAlign: 'justify', textJustify: 'inter-word'}} header="Indraprasta PGRI University (2020-2024)" headerClass="my-header-class">Bachelor of Information Technology - Coming Soon</Panel>
                             </Collapse>
                             <Collapse defaultActiveKey="0" accordion={true}>
-                                <Panel style={{textAlign: 'justify', textJustify: 'inter-word'}} header="[Graduated] Vocational High School 24 Jakarta" headerClass="my-header-class">
+                                <Panel style={{textAlign: 'justify', textJustify: 'inter-word'}} header="Vocational High School 24 Jakarta (2017-2019)" headerClass="my-header-class">
                                     Learn and explore all the ways of software development including making software, maintenance, software development organization management and quality management. Not only that, I also learned computer software from making websites, applications and everything related to programming by mastering the programming language.
                                 </Panel>
                             </Collapse>
