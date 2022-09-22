@@ -13,7 +13,6 @@ import { useSwipeable, Swipeable } from 'react-swipeable'
 import Moment from 'moment-timezone';
 var Panel = Collapse.Panel;
 require('rc-collapse/assets/index.css');
-
 class NewLandingPage extends Component{
     constructor(props) {
         super(props);
@@ -100,6 +99,17 @@ class NewLandingPage extends Component{
         this.setState({
             open: !this.state.open
         });
+    }
+
+    downloadCV = () => {
+        const element = document.createElement("a");
+        element.href = 'Yusuf-Eko-Anggoro-ATS-Resume.pdf'
+        element.target = '_blank';
+        element.download = ''
+
+        document.body.appendChild(element); // Required for this to work in FireFox
+        element.click();
+        element.parentNode.removeChild(element);
     }
     
 
@@ -197,6 +207,9 @@ class NewLandingPage extends Component{
                                     My current back-end language is <strong>PHP</strong>, <strong>JavaScript</strong> and <strong>Golang</strong>.
                                 </p>
                             </div>
+                            <div>
+                            <button onClick={ () => this.downloadCV()}>Download CV</button>
+                            </div>
                         </Element>
                         <Element name="Experience" className="experience-wrap">
                             <h2 className="heading-meta">Experience</h2>
@@ -227,9 +240,10 @@ class NewLandingPage extends Component{
                                             <li>Implementing best practices way.</li>
                                             <li>With caching (Redis), ELK stack (Elasticsearch, Logstash, Kibana).</li>
                                             <li>Used MinIO for enterprise file storage.</li>
+                                            <li>Used FCM for notifications.</li>
                                         </ul>
                                     </p>
-                                </VerticalTimelineElement>
+                            </VerticalTimelineElement>
                                 <VerticalTimelineElement
                                     className="vertical-timeline-element--work"
                                     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -239,7 +253,7 @@ class NewLandingPage extends Component{
                                     icon={<FaPencilAlt/>}
                                 >
                                     <h5 className="vertical-timeline-element-title">Graduated as Full Stack Developer at Arkademy</h5>
-                                    <p style={{textAlign: 'justify', textJustify: 'inter-word'}}>Focus on mobile development with react native and Node.js.</p>
+                                    <p style={{textAlign: 'justify', textJustify: 'inter-word'}}>Arkademy is software engineering program that provides 6 weeks hands on coding curriculum that focus on mobile development with react native and node JS.</p>
                                 </VerticalTimelineElement>
                             </VerticalTimeline>
                         </Element>
