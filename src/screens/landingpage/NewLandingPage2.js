@@ -218,7 +218,7 @@ class NewLandingPage extends Component{
                                     className="vertical-timeline-element--work"
                                     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                                    date="2019 - present"
+                                    date="August 2019 - Present"
                                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                                     icon={<FaPencilAlt/>}
                                 >
@@ -248,7 +248,7 @@ class NewLandingPage extends Component{
                                     className="vertical-timeline-element--work"
                                     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                                    date="2019"
+                                    date="July 2019 - August 2019"
                                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                                     icon={<FaPencilAlt/>}
                                 >
