@@ -263,7 +263,39 @@ main .skills-wrap .my-header-class{
     display: none;
 }
 
+.ul-vertical-timeline-content li {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.p-vertical-timeline-content li {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.ul-skills-content li {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.panel-education-content {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 @media only screen and (max-width: 768px) {
+    .ul-vertical-timeline-content li {
+        text-align: left;
+    }
+    .p-vertical-timeline-content li {
+        text-align: left;
+    }
+    .ul-skills-content li {
+        text-align: left;
+    }
+    .panel-education-content {
+        text-align: left;
+    }
     aside{
         display: none;
     }

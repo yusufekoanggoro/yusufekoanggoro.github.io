@@ -224,7 +224,7 @@ class NewLandingPage extends Component{
                                 >
                                     <h5 className="vertical-timeline-element-title">Back-End Developer at Telkom Indonesia</h5>
                                     <p>
-                                        <ul style={{textAlign: 'justify', textJustify: 'inter-word'}}>
+                                        <ul className="ul-vertical-timeline-content">
                                             <li>
                                                 Building, developing, implementing Test Driven Development, analysis and maintaining microservices architecture such as gamification service, ticket service, notification service, user service and worker service. RESTful APIs or Apache Kafka function as the glue that integrates the microservices into application.
                                             </li>
@@ -253,17 +253,17 @@ class NewLandingPage extends Component{
                                     icon={<FaPencilAlt/>}
                                 >
                                     <h5 className="vertical-timeline-element-title">Graduated as Full Stack Developer at Arkademy</h5>
-                                    <p style={{textAlign: 'justify', textJustify: 'inter-word'}}>Arkademy is software engineering program that provides 6 weeks hands on coding curriculum that focus on mobile development with react native and node JS.</p>
+                                    <p className="p-vertical-timeline-content">Arkademy is a software engineering program that provides a 6 weeks hands-on coding curriculum that focuses on mobile development with react native and node JS.</p>
                                 </VerticalTimelineElement>
                             </VerticalTimeline>
                         </Element>
                         <Element name="Education" className="education-wrap">
                             <h2 className="heading-meta">Education</h2>
                             <Collapse defaultActiveKey="0" style={{marginBottom: '7px'}} accordion={true}>
-                                <Panel style={{textAlign: 'justify', textJustify: 'inter-word'}} header="Indraprasta PGRI University (2020-2024)" headerClass="my-header-class">Bachelor of Information Technology - Coming Soon</Panel>
+                                <Panel className="panel-education-content" header="Indraprasta PGRI University (2020-2024)" headerClass="my-header-class">Bachelor of Information Technology</Panel>
                             </Collapse>
                             <Collapse defaultActiveKey="0" accordion={true}>
-                                <Panel style={{textAlign: 'justify', textJustify: 'inter-word'}} header="Vocational High School 24 Jakarta (2017-2019)" headerClass="my-header-class">
+                                <Panel className="panel-education-content" header="Vocational High School 24 Jakarta (2017-2019)" headerClass="my-header-class">
                                     Learn and explore all the ways of software development including making software, maintenance, software development organization management and quality management. Not only that, I also learned computer software from making websites, applications and everything related to programming by mastering the programming language.
                                 </Panel>
                             </Collapse>
@@ -273,7 +273,7 @@ class NewLandingPage extends Component{
                             <Collapse defaultActiveKey="0" accordion={true} style={{marginBottom: '7px'}}>
                                 <Panel header="Back-End" headerClass="my-header-class backend">
                                     <p>
-                                        <ul style={{textAlign: 'justify', textJustify: 'inter-word'}}>
+                                        <ul className='ul-skills-content'>
                                             <li>Programming Languages: PHP, Javascript, Golang</li>
                                             <li>Back-end Technologies: Express.js, Golang, Laravel</li>
                                             <li>Development Tools (IDEs): Visual Studio Code</li>
