@@ -4,12 +4,11 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, Element , Events, animateScroll as scroll, scroller } from 'react-scroll';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import { DiJavascript1, DiPhp, DiMysql, DiMongodb, DiRedis, DiLinux, DiGit, DiLaravel, DiGo, DiVisualstudio, DiHtml5, DiCss3, DiBootstrap, DiDocker, DiNodejs, DiReact, DiNpm, DiDatabase, DiStackoverflow } from 'react-icons/di';
 import {FaPencilAlt, FaFacebook, FaLinkedin, FaInstagram, FaGithub} from 'react-icons/fa';
 import Collapse from 'rc-collapse';
 import HamburgerMenu from 'react-hamburger-menu';
 import { push as Menu } from 'react-burger-menu';
-import { useSwipeable, Swipeable } from 'react-swipeable'
+// import { useSwipeable, Swipeable } from 'react-swipeable'
 import Moment from 'moment-timezone';
 var Panel = Collapse.Panel;
 require('rc-collapse/assets/index.css');
