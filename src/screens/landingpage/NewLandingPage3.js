@@ -200,7 +200,7 @@ class NewLandingPage extends Component{
                             <h2 className="heading-meta">About Me</h2>
                             <div className='desc'>
                                 <p style={{textAlign: 'justify', textJustify: 'inter-word'}}>
-                                    <strong>Hi, I'm Yusuf Eko Anggoro</strong>, a <strong>Back-End Developer</strong> with over <strong>5 years of experience</strong> in developing and maintaining scalable systems. I have a <strong>strong passion for coding</strong> and a deep enthusiasm for <strong>continuous learning</strong>, especially in the <strong>latest technologies</strong>. My <strong>expertise</strong> includes <strong>Node.js, TypeScript, and Golang</strong> for back-end development within a <strong>microservices architecture</strong>.
+                                    <strong>Hi, I'm Yusuf Eko Anggoro</strong>, a <strong>Back-End Developer</strong> with over <strong>3 years of experience</strong> in developing and maintaining scalable systems. I have a <strong>strong passion for coding</strong> and a deep enthusiasm for <strong>continuous learning</strong>, especially in the <strong>latest technologies</strong>. My <strong>expertise</strong> includes <strong>Node.js, TypeScript, and Golang</strong> for back-end development within a <strong>microservices architecture</strong>.
                                 </p>
                             </div>
                             <div>
