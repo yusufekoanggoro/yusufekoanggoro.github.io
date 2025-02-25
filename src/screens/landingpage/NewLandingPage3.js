@@ -227,7 +227,7 @@ class NewLandingPage extends Component{
                                             <li>Ensured code quality and stability through automated testing with Mocha, Chai, and Jest.</li>
                                             <li>Used Kafka for real-time communication between services.</li>
                                             <li>Used Elasticsearch to improve data search.</li>
-                                            <li>Used the ELK Stack (Elasticsearch, Logstash, Kibana) to monitor and analyze logs, based on configurations set by the DevOps team.</li>
+                                            <li>Used the ELK Stack (Elasticsearch, Logstash, Kibana) to monitor and analyze logs.</li>
                                             <li>Used Jenkins for CI/CD processes that were set up by the DevOps team.</li>
                                             <li>Implemented API security best practices, including Basic Authentication, JWT, Rate Limiting, and CORS</li>
                                             <li>Implemented encryption and decryption to protect sensitive data.</li>
