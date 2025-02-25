@@ -259,7 +259,7 @@ class NewLandingPage extends Component{
                                 </Panel>
                             </Collapse>
                             <Collapse defaultActiveKey="0" accordion={true}>
-                                <Panel className="panel-education-content" header="Vocational High School 24 Jakarta (2017-2019)" headerClass="my-header-class">
+                                <Panel className="panel-education-content" header="Vocational High School 24 Jakarta (2016-2019)" headerClass="my-header-class">
                                 I studied and explored programming, software development, and database management. Proficient in algorithms, data structures, and developing web and desktop applications, with experience in software development projects both individually and in teams.
                                 </Panel>
                             </Collapse>
