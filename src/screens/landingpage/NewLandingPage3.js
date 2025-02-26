@@ -102,7 +102,7 @@ class NewLandingPage extends Component{
 
     downloadCV = () => {
         const element = document.createElement("a");
-        element.href = 'Yusuf-Eko-Anggoro-ATS-Resume 2025.pdf'
+        element.href = 'Yusuf Eko Anggoro - Resume.pdf'
         element.target = '_blank';
         element.download = ''
 
@@ -128,7 +128,7 @@ class NewLandingPage extends Component{
                             <h1 className='full-name'>
                                 <a>Yusuf Eko Anggoro</a>
                             </h1>
-                            <span className="position"><a href="">Backend Dev</a></span>
+                            <span className="position"><a href="">Back End Developer</a></span>
                         </div>
                         <div className='nav'>
                             <ul>
@@ -159,7 +159,7 @@ class NewLandingPage extends Component{
                             <h1 className='full-name'>
                                 <a>Yusuf Eko Anggoro</a>
                             </h1>
-                            <span className="position"><a href="">Backend Dev</a></span>
+                            <span className="position"><a href="">Back End Developer</a></span>
                         </div>
                         <div className='nav'>
                             <ul>
@@ -200,7 +200,7 @@ class NewLandingPage extends Component{
                             <h2 className="heading-meta">About Me</h2>
                             <div className='desc'>
                                 <p style={{textAlign: 'justify', textJustify: 'inter-word'}}>
-                                Hi, I'm <strong>Yusuf Eko Anggoro</strong>, a <strong>Back-End Developer</strong> with over <strong>5 years of experience</strong> building and optimizing <strong>scalable microservices architecture</strong>. I specialize in <strong>Node.js</strong>, <strong>TypeScript</strong>, and <strong>Golang</strong> with a focus on <strong>performance</strong>, <strong>reliability</strong>, and <strong>maintainability</strong>. Passionate about <strong>problem-solving</strong> and continuously learning the latest technologies to drive impactful solutions.
+                                    I'm <strong>Yusuf Eko Anggoro</strong>, a <strong>Back End Developer</strong> with over <strong>5 years of experience</strong> building and optimizing <strong>scalable microservices architecture</strong>. I specialize in <strong>Node.js</strong>, <strong>TypeScript</strong>, and <strong>Golang</strong> with a focus on <strong>performance</strong>, <strong>reliability</strong>, and <strong>maintainability</strong>. Passionate about <strong>problem-solving</strong> and continuously learning the latest technologies to drive impactful solutions.
                                 </p>
                             </div>
                             <div>
@@ -218,7 +218,7 @@ class NewLandingPage extends Component{
                                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                                     icon={<FaPencilAlt/>}
                                 >
-                                    <h5 className="vertical-timeline-element-title">Back-End Developer at Telkom Indonesia</h5>
+                                    <h5 className="vertical-timeline-element-title">Back End Developer at Telkom Indonesia</h5>
                                     <p>
                                         <ul className="ul-vertical-timeline-content">
                                             <li>Developed and maintained backend services using Node.js, TypeScript, and Golang within a microservices architecture.</li>
@@ -267,7 +267,7 @@ class NewLandingPage extends Component{
                         <Element name="Skills" className="skills-wrap">
                             <h2 className="heading-meta">My Skills</h2>
                             <Collapse defaultActiveKey="0" accordion={true} style={{marginBottom: '7px'}}>
-                                <Panel header="Back-End" headerClass="my-header-class backend">
+                                <Panel header="Back End" headerClass="my-header-class backend">
                                     <p>
                                         <ul className='ul-skills-content'>
                                             <li>Programming Languages: JavaScript (Node.js), TypeScript, GO (Golang), Java, Laravel</li>
