@@ -163,6 +163,7 @@ main{
         'aside experience-wrap'
         'aside education-wrap'
         'aside skills-wrap'
+        'aside portfolio-wrap'
         'aside contact-wrap';
     grid-auto-rows: minmax(min-content, max-content);
 }
@@ -188,6 +189,13 @@ main .education-wrap{
 main .skills-wrap{
     padding-top: 4em;
     grid-area: skills-wrap;
+    padding: 2.5em;
+    padding-bottom: 9em;
+}
+
+main .portfolio-wrap{
+    padding-top: 4em;
+    grid-area: portfolio-wrap;
     padding: 2.5em;
     padding-bottom: 9em;
 }
@@ -252,6 +260,14 @@ main .skills-wrap .my-header-class{
     font-family: "Quicksand", Arial, sans-serif;
 }
 
+main .portfolio-wrap .my-header-class{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Quicksand", Arial, sans-serif;
+}
+
 .my-menu{
     display: none;
 }
@@ -307,6 +323,7 @@ main .skills-wrap .my-header-class{
             'experience-wrap'
             'education-wrap'
             'skills-wrap'
+            'portfolio-wrap'
             'contact-wrap';
         /* grid-auto-rows: minmax(min-content, max-content); */
     }

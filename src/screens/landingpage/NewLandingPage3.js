@@ -8,6 +8,7 @@ import {FaPencilAlt, FaFacebook, FaLinkedin, FaInstagram, FaGithub, FaWhatsapp} 
 import Collapse from 'rc-collapse';
 import HamburgerMenu from 'react-hamburger-menu';
 import { push as Menu } from 'react-burger-menu';
+import GithubRepos from '../../components/GithubRepos';
 // import { useSwipeable, Swipeable } from 'react-swipeable'
 import Moment from 'moment-timezone';
 var Panel = Collapse.Panel;
@@ -22,6 +23,7 @@ class NewLandingPage extends Component{
                 {name: 'Experience', stts: ''},
                 {name: 'Education', stts: ''},
                 {name: 'Skills', stts: ''},
+                {name: 'Portfolio', stts: ''},
                 {name: 'Contact', stts: ''}
             ],
             open: false,
@@ -80,6 +82,7 @@ class NewLandingPage extends Component{
             {name: 'Experience', stts: ''},
             {name: 'Education', stts: ''},
             {name: 'Skills', stts: ''},
+            {name: 'Portfolio', stts: ''},
             {name: 'Contact', stts: ''}
         ];
         const indexMenuSelected = menu.findIndex( (element) => element.name === arg);
@@ -231,6 +234,7 @@ class NewLandingPage extends Component{
                                             <li>Used Jenkins for CI/CD processes that were set up by the DevOps team.</li>
                                             <li>Implemented API security best practices, including Basic Authentication, JWT, Rate Limiting, and CORS.</li>
                                             <li>Implemented encryption and decryption to protect sensitive data.</li>
+                                            <li>Used Bull for job queue management and background processing.</li>
                                             <li>Collaborated within Agile development teams, actively participating in sprint planning, daily stand-ups, and retrospectives to drive continuous improvement and efficient project execution.</li>
                                             <li>Used Microservices and Domain-Driven Design (DDD) principles to build flexible and scalable systems.</li>
                                             <li>Used Docker for containerization and Git for version control and collaboration.</li>
@@ -279,13 +283,18 @@ class NewLandingPage extends Component{
                                             <li>Monitoring & Logging: ELK Stack (Elasticsearch, Logstash, Kibana), Jenkins</li>
                                             <li>API Development: REST API</li>
                                             <li>Authentication & Security: Basic Authentication, JWT (JSON Web Token), Rate Limiting, CORS, Encryption & Decryption</li>
-                                            <li>Methodologies: Agile</li>
+                                            <li>Job Queue & Background Processing: Bull</li>
+                                            <li>Scheduler: Node Cron, Agenda</li>
                                             <li>Software Design & Architecture: Microservices, Domain-Driven Design (DDD)</li>
                                             <li>Tools: Docker, Git</li>
                                         </ul>
                                     </p>
                                 </Panel>
                             </Collapse>
+                        </Element>
+                        <Element name="Portfolio" className="portfolio-wrap">
+                            <h2 className="heading-meta">My Portfolio</h2>
+                            <GithubRepos />
                         </Element>
                         <Element name="Contact" className="contact-wrap">
                             <div className='contact'>
