@@ -225,6 +225,7 @@ class NewLandingPage extends Component{
                                     <p>
                                         <ul className="ul-vertical-timeline-content">
                                             <li>Developed and maintained backend services using Node.js, TypeScript, and Golang within a microservices architecture.</li>
+                                            <li>Implemented Clean Architecture and Domain-Driven Design (DDD) to ensure modular, scalable, and maintainable code.</li>
                                             <li>Designed and optimized databases (MongoDB, PostgreSQL, Oracle, MySQL, Redis) for high performance and scalability.</li>
                                             <li>Implemented cloud storage solutions with Minio, AWS S3, and integrated Firebase for push notifications.</li>
                                             <li>Ensured code quality and stability through automated testing with Mocha, Chai, and Jest.</li>
