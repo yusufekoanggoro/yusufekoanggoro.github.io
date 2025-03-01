@@ -230,7 +230,7 @@ class NewLandingPage extends Component{
                                             <li>Used design patterns like Repository Pattern, Factory Pattern, and Singleton to make the code more organized and easy to manage.</li>
                                             <li>Implemented cloud storage solutions with Minio, AWS S3, and integrated Firebase for push notifications.</li>
                                             <li>Ensured code quality and stability through automated testing with Mocha, Chai, and Jest.</li>
-                                            <li>Used Event-Driven Architecture with Kafka to allow services to communicate efficiently.</li>
+                                            <li>Used Event-Driven Architecture with Kafka for real-time communication between services.</li>
                                             <li>Used Elasticsearch to improve data search.</li>
                                             <li>Used the ELK Stack (Elasticsearch, Logstash, Kibana) to monitor and analyze logs.</li>
                                             <li>Used Jenkins for CI/CD processes that were set up by the DevOps team.</li>
