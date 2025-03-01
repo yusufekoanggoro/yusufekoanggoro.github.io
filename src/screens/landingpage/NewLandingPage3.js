@@ -285,8 +285,7 @@ class NewLandingPage extends Component{
                                             <li>Monitoring & Logging: ELK Stack (Elasticsearch, Logstash, Kibana), Jenkins</li>
                                             <li>API Development: REST API, gRPC, GraphQL</li>
                                             <li>Authentication & Security: Basic Authentication, JWT (JSON Web Token), Rate Limiting, CORS, Encryption & Decryption</li>
-                                            <li>Job Queue & Background Processing: Bull</li>
-                                            <li>Scheduler: Node Cron, Agenda</li>
+                                            <li>Background Processing & Worker Systems: Bull, Node Cron</li>
                                             <li>Software Design & Architecture: Microservices, Domain-Driven Design (DDD), Clean Architecture</li>
                                             <li>Tools: Docker, Git</li>
                                         </ul>
