@@ -234,6 +234,8 @@ class NewLandingPage extends Component{
                                             <li>Used Jenkins for CI/CD processes that were set up by the DevOps team.</li>
                                             <li>Implemented API security best practices, including Basic Authentication, JWT, Rate Limiting, and CORS.</li>
                                             <li>Implemented encryption and decryption to protect sensitive data.</li>
+                                            <li>Implemented automated task scheduling using Node Cron to streamline data updates.</li>
+                                            <li>Optimized large-scale data processing by developing background jobs with Bull for improved efficiency.</li>
                                             <li>Used Bull for job queue management and background processing.</li>
                                             <li>Collaborated within Agile development teams, actively participating in sprint planning, daily stand-ups, and retrospectives to drive continuous improvement and efficient project execution.</li>
                                             <li>Used Microservices and Domain-Driven Design (DDD) principles to build flexible and scalable systems.</li>
@@ -281,11 +283,11 @@ class NewLandingPage extends Component{
                                             <li>Message Broker: Kafka</li>
                                             <li>Search & Indexing: Elasticsearch</li>
                                             <li>Monitoring & Logging: ELK Stack (Elasticsearch, Logstash, Kibana), Jenkins</li>
-                                            <li>API Development: REST API</li>
+                                            <li>API Development: REST API, gRPC, GraphQL</li>
                                             <li>Authentication & Security: Basic Authentication, JWT (JSON Web Token), Rate Limiting, CORS, Encryption & Decryption</li>
                                             <li>Job Queue & Background Processing: Bull</li>
                                             <li>Scheduler: Node Cron, Agenda</li>
-                                            <li>Software Design & Architecture: Microservices, Domain-Driven Design (DDD)</li>
+                                            <li>Software Design & Architecture: Microservices, Domain-Driven Design (DDD), Clean Architecture</li>
                                             <li>Tools: Docker, Git</li>
                                         </ul>
                                     </p>
