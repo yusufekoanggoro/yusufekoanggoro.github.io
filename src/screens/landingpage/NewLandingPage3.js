@@ -227,9 +227,10 @@ class NewLandingPage extends Component{
                                             <li>Developed and maintained backend services using Node.js, TypeScript, and Golang within a microservices architecture.</li>
                                             <li>Implemented Clean Architecture and Domain-Driven Design (DDD) to ensure modular, scalable, and maintainable code.</li>
                                             <li>Designed and optimized databases (MongoDB, PostgreSQL, Oracle, MySQL, Redis) for high performance and scalability.</li>
+                                            <li>Used design patterns like Repository Pattern, Factory Pattern, and Singleton to make the code more organized and easy to manage.</li>
                                             <li>Implemented cloud storage solutions with Minio, AWS S3, and integrated Firebase for push notifications.</li>
                                             <li>Ensured code quality and stability through automated testing with Mocha, Chai, and Jest.</li>
-                                            <li>Used Kafka for real-time communication between services.</li>
+                                            <li>Used Event-Driven Architecture with Kafka to allow services to communicate efficiently.</li>
                                             <li>Used Elasticsearch to improve data search.</li>
                                             <li>Used the ELK Stack (Elasticsearch, Logstash, Kibana) to monitor and analyze logs.</li>
                                             <li>Used Jenkins for CI/CD processes that were set up by the DevOps team.</li>
@@ -237,9 +238,7 @@ class NewLandingPage extends Component{
                                             <li>Implemented encryption and decryption to protect sensitive data.</li>
                                             <li>Implemented automated task scheduling using Node Cron to streamline data updates.</li>
                                             <li>Optimized large-scale data processing by developing background jobs with Bull for improved efficiency.</li>
-                                            <li>Used Bull for job queue management and background processing.</li>
                                             <li>Collaborated within Agile development teams, actively participating in sprint planning, daily stand-ups, and retrospectives to drive continuous improvement and efficient project execution.</li>
-                                            <li>Used Microservices and Domain-Driven Design (DDD) principles to build flexible and scalable systems.</li>
                                             <li>Used Docker for containerization and Git for version control and collaboration.</li>
                                         </ul>
                                     </p>
@@ -286,8 +285,9 @@ class NewLandingPage extends Component{
                                             <li>Monitoring & Logging: ELK Stack (Elasticsearch, Logstash, Kibana), Jenkins</li>
                                             <li>API Development: REST API, gRPC, GraphQL</li>
                                             <li>Authentication & Security: Basic Authentication, JWT (JSON Web Token), Rate Limiting, CORS, Encryption & Decryption</li>
-                                            <li>Background Processing & Worker Systems: Bull, Node Cron</li>
-                                            <li>Software Design & Architecture: Microservices, Domain-Driven Design (DDD), Clean Architecture</li>
+                                            <li>Background Processing & Task Scheduling: Bull, Node Cron</li>
+                                            <li>Software Architecture: Microservices, Domain-Driven Design (DDD), Clean Architecture, Event-Driven Architecture</li>
+                                            <li>Design Pattern: Repository Pattern, CQRS, Singleton</li>
                                             <li>Tools: Docker, Git</li>
                                         </ul>
                                     </p>
