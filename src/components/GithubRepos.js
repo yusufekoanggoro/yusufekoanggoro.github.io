@@ -4,7 +4,7 @@ import axios from "axios";
 export default function GitHubRepos() {
   const [repos, setRepos] = useState([]);
   const username = "yusufekoanggoro";
-  const exactRepoNames = ["AHPRecruit", "WasteBankApp", "waste-bank-service"];
+  const exactRepoNames = ["grcpc-unary-go", "AHPRecruit", "WasteBankApp", "waste-bank-service"];
 
   useEffect(() => {
     axios
