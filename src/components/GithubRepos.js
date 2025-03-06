@@ -4,11 +4,17 @@ import axios from "axios";
 export default function GitHubRepos() {
   const [repos, setRepos] = useState([]);
   const username = "yusufekoanggoro";
-  const exactRepoNames = ["grcpc-unary-go", "AHPRecruit", "WasteBankApp", "waste-bank-service"];
+  const exactRepoNames = [
+    "grcpc-unary-go", 
+    "AHPRecruit", 
+    "WasteBankApp", 
+    "waste-bank-service",
+    "go-solid-principle",
+  ];
 
   useEffect(() => {
     axios
-      .get(`https://api.github.com/users/${username}/repos`)
+      .get(`https://api.github.com/users/${username}/repos?sort=updated`)
       .then((response) => {
         setRepos(response.data);
       })
@@ -33,25 +39,25 @@ export default function GitHubRepos() {
         {filteredRepos.map((repo) => (
           <li
             key={repo.id}
+            onClick={() => window.open(repo.html_url, "_blank")}
             style={{
               padding: "16px",
               border: "1px solid #ddd",
               borderRadius: "8px",
               boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+              cursor: "pointer",
+              transition: "transform 0.2s, box-shadow 0.2s",
+            }}
+            onMouseOver={(e) => {
+              e.currentTarget.style.transform = "scale(1.03)";
+              e.currentTarget.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
+            }}
+            onMouseOut={(e) => {
+              e.currentTarget.style.transform = "scale(1)";
+              e.currentTarget.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.1)";
             }}
           >
-            <a
-              href={repo.html_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                color: "#007bff",
-                fontWeight: "bold",
-                textDecoration: "none",
-              }}
-            >
-              {repo.name}
-            </a>
+            <a style={{ color: "#007bff", fontWeight: "bold" }}>{repo.name}</a>
             <p
               style={{
                 fontSize: "14px",
