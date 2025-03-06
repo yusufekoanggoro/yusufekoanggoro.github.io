@@ -131,7 +131,7 @@ class NewLandingPage extends Component{
                             <h1 className='full-name'>
                                 <a>Yusuf Eko Anggoro</a>
                             </h1>
-                            <span className="position"><a href="">Back End Developer</a></span>
+                            <span className="position"><a href="">Backend Developer</a></span>
                         </div>
                         <div className='nav'>
                             <ul>
@@ -162,7 +162,7 @@ class NewLandingPage extends Component{
                             <h1 className='full-name'>
                                 <a>Yusuf Eko Anggoro</a>
                             </h1>
-                            <span className="position"><a href="">Back End Developer</a></span>
+                            <span className="position"><a href="">Backend Developer</a></span>
                         </div>
                         <div className='nav'>
                             <ul>
@@ -203,7 +203,7 @@ class NewLandingPage extends Component{
                             <h2 className="heading-meta">About Me</h2>
                             <div className='desc'>
                                 <p style={{textAlign: 'justify', textJustify: 'inter-word'}}>
-                                    I'm <strong>Yusuf Eko Anggoro</strong>, a <strong>Back End Developer</strong> with over <strong>5 years of experience</strong> building and optimizing <strong>scalable microservices architecture</strong>. I specialize in <strong>Node.js</strong>, <strong>TypeScript</strong>, and <strong>Golang</strong> with a focus on <strong>performance</strong>, <strong>reliability</strong>, and <strong>maintainability</strong>. Passionate about <strong>problem-solving</strong> and continuously learning the latest technologies to drive impactful solutions.
+                                    I'm <strong>Yusuf Eko Anggoro</strong>, a <strong>Backend Developer</strong> with over <strong>5 years of experience</strong> building and optimizing <strong>scalable microservices architecture</strong>. I specialize in <strong>Node.js</strong>, <strong>TypeScript</strong>, and <strong>Golang</strong> with a focus on <strong>performance</strong>, <strong>reliability</strong>, and <strong>maintainability</strong>. Passionate about <strong>problem-solving</strong> and continuously learning the latest technologies to drive impactful solutions.
                                 </p>
                             </div>
                             <div>
@@ -217,15 +217,24 @@ class NewLandingPage extends Component{
                                     className="vertical-timeline-element--work"
                                     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                                    date="August 2019 - 2025"
+                                    date="August 2019 - March 2025"
                                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                                     icon={<FaPencilAlt/>}
                                 >
-                                    <h5 className="vertical-timeline-element-title">Back End Developer at Telkom Indonesia</h5>
+                                    <h5 className="vertical-timeline-element-title">Backend Developer at Telkom Indonesia</h5>
                                     <p>
                                         <ul className="ul-vertical-timeline-content">
+                                            <li>Developed a Ticket Management System for ticket tracking, automated notifications, and API integration with other platforms.</li>
+                                            <li>Developed a User Management System with Role-Based Access Control (RBAC) authentication using JWT to enhance user access security.</li>
+                                            <li>Developed an Attendance Management System for real-time attendance tracking and attendance report analysis.</li>
+                                            <li>Developed a Lead Management System for the sales team to track and analyze prospects to improve sales conversion.</li>
+                                            <li>Contributed to the development of a CRM with automation and personalization features to enhance customer retention.</li>
+                                            <li>Fixed bugs from helpdesk reports, performed troubleshooting and debugging, and refactored code to ensure optimal system performance.</li>
                                             <li>Developed and maintained backend services using Node.js, TypeScript, and Golang within a microservices architecture.</li>
-                                            <li>Implemented Clean Architecture and Domain-Driven Design (DDD) to ensure modular, scalable, and maintainable code.</li>
+                                            <li>Collaborated with the Product Owner, Frontend and Mobile Developer, DevOps Engineer, Quality Assurance, Software Architect, UI/UX Designer, Scrum Master, and Document Engineer to develop and implement efficient and scalable backend solutions.</li>
+                                            <li>Experienced as a Lead Backend Developer in a squad, leading the design, development, and implementation of efficient backend solutions.</li>
+                                            <li>Integrated the backend with various external systems to ensure smooth data flow and efficiency.</li>
+                                            <li>Implemented Clean Architecture, Domain-Driven Design (DDD), and SOLID Principles to ensure modular, scalable, and maintainable code.</li>
                                             <li>Designed and optimized databases (MongoDB, PostgreSQL, Oracle, MySQL, Redis) for high performance and scalability.</li>
                                             <li>Used design patterns like Repository Pattern, Factory Pattern, and Singleton to make the code more organized and easy to manage.</li>
                                             <li>Implemented cloud storage solutions with Minio, AWS S3, and integrated Firebase for push notifications.</li>
@@ -252,7 +261,7 @@ class NewLandingPage extends Component{
                                     icon={<FaPencilAlt/>}
                                 >
                                     <h5 className="vertical-timeline-element-title">Graduated as Full Stack Developer at Arkademy</h5>
-                                    <p className="p-vertical-timeline-content">Arkademy is a software engineering program that provides a 6 weeks hands-on coding curriculum that focuses on mobile development with react native and node JS.</p>
+                                    <p className="p-vertical-timeline-content">Arkademy is a software engineering program that provides a 6 weeks hands-on coding curriculum that focuses on mobile development with React Native and Node.js.</p>
                                 </VerticalTimelineElement>
                             </VerticalTimeline>
                         </Element>
@@ -273,7 +282,7 @@ class NewLandingPage extends Component{
                         <Element name="Skills" className="skills-wrap">
                             <h2 className="heading-meta">My Skills</h2>
                             <Collapse defaultActiveKey="0" accordion={true} style={{marginBottom: '7px'}}>
-                                <Panel header="Back End" headerClass="my-header-class backend">
+                                <Panel header="Backend Developer" headerClass="my-header-class backend">
                                     <p>
                                         <ul className='ul-skills-content'>
                                             <li>Programming Languages: JavaScript (Node.js), TypeScript, GO (Golang), Java, Laravel</li>
@@ -287,7 +296,7 @@ class NewLandingPage extends Component{
                                             <li>Authentication & Security: Basic Authentication, JWT (JSON Web Token), Rate Limiting, CORS, Encryption & Decryption</li>
                                             <li>Background Processing & Task Scheduling: Bull, Node Cron</li>
                                             <li>Software Architecture: Microservices, Domain-Driven Design (DDD), Clean Architecture, Event-Driven Architecture</li>
-                                            <li>Design Pattern: Repository Pattern, CQRS, Singleton</li>
+                                            <li>Software Design: SOLID Principles, Design Patterns</li>
                                             <li>Tools: Docker, Git</li>
                                         </ul>
                                     </p>
