@@ -1,16 +1,26 @@
 pipeline {
-    agent any // any agent can run this job
+    agent any
 
     stages {
-        stage('Echo Hello World') {
+        stage('Build') {
             steps {
-                echo 'Hello World'
+                echo 'Building project...'
+                // Misalnya untuk Node.js: sh 'npm install'
             }
         }
-    }
-    post {
-        always {
-            cleanWs() // clean workspace when done
+
+        stage('Test') {
+            steps {
+                echo 'Running tests...'
+                // Misalnya untuk Node.js: sh 'npm test'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo 'Deploying application...'
+                // Tambahkan script deployment di sini
+            }
         }
     }
 }
