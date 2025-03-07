@@ -13,7 +13,7 @@ pipeline {
             }
         }
 
-         stage('Build Docker Image') {
+        stage('Build Docker Image') {
             steps {
                 script {
                     sh "docker build -t $DOCKER_IMAGE:$DOCKER_TAG ."
@@ -45,13 +45,14 @@ pipeline {
             }
         }
 
-        post {
-            success {
-                echo 'Deployment berhasil! 🚀'
-            }
-            failure {
-                echo 'Deployment gagal! ❌'
-            }
+    }
+
+    post {
+        success {
+            echo 'Deployment berhasil! 🚀'
+        }
+        failure {
+            echo 'Deployment gagal! ❌'
         }
     }
 }
