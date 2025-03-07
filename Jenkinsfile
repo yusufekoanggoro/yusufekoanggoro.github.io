@@ -2,24 +2,26 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Checkout') {
             steps {
-                echo 'Building project...'
-                // Misalnya untuk Node.js: sh 'npm install'
+                git branch: 'master', url: 'https://github.com/yusufekoanggoro/yusufekoanggoro.github.io.git'
             }
         }
 
-        stage('Test') {
+        stage('Install Dependencies') {
             steps {
-                echo 'Running tests...'
-                // Misalnya untuk Node.js: sh 'npm test'
+                script {
+                    sh 'npm install'
+                }
             }
         }
 
-        stage('Deploy') {
-            steps {
-                echo 'Deploying application...'
-                // Tambahkan script deployment di sini
+        post {
+            success {
+                echo 'Deployment berhasil! 🚀'
+            }
+            failure {
+                echo 'Deployment gagal! ❌'
             }
         }
     }
