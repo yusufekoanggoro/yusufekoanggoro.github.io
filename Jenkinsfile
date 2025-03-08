@@ -21,11 +21,21 @@ pipeline {
             }
         }
 
+        // stage('Login to Docker Hub') {
+        //     steps {
+        //         script {
+        //             withCredentials([string(credentialsId: 'docker-access-token', usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASSWORD')]) {
+        //                 sh "echo $DOCKER_PASSWORD | docker login -u ${DOCKER_USER} --password-stdin"
+        //             }
+        //         }
+        //     }
+        // }
+
         stage('Login to Docker Hub') {
             steps {
                 script {
-                    withCredentials([string(credentialsId: 'docker-access-token', usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASSWORD')]) {
-                        sh "echo $DOCKER_PASSWORD | docker login -u ${DOCKER_USER} --password-stdin"
+                    withCredentials([usernamePassword(credentialsId: 'docker-access-token', usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASSWORD')]) {
+                        sh "echo $DOCKER_PASSWORD | docker login -u $DOCKER_USER --password-stdin"
                     }
                 }
             }
