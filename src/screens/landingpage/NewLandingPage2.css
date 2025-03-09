@@ -173,6 +173,11 @@ main{
     grid-auto-rows: minmax(min-content, max-content);
 }
 
+main > * {
+    max-width: 100%;
+    overflow: hidden;
+}
+
 main .about-wrap{
     padding-top: 4em;
     grid-area: about-wrap;
