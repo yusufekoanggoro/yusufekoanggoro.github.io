@@ -203,7 +203,7 @@ class NewLandingPage extends Component{
                             <h2 className="heading-meta">About Me</h2>
                             <div className='desc'>
                                 <p style={{textAlign: 'justify', textJustify: 'inter-word'}}>
-                                    I'm <strong>Yusuf Eko Anggoro</strong>, a <strong>Backend Developer</strong> with over <strong>5 years of experience</strong> building and optimizing <strong>scalable microservices architecture</strong>. I specialize in <strong>Node.js</strong>, <strong>TypeScript</strong>, and <strong>Golang</strong> with a focus on <strong>performance</strong>, <strong>reliability</strong>, and <strong>maintainability</strong>. Passionate about <strong>problem-solving</strong> and continuously learning the latest technologies to drive impactful solutions.
+                                    I'm <strong>Yusuf Eko Anggoro</strong>, a <strong>Backend Developer</strong> with over <strong>5 years of experience</strong> developing and optimizing <strong> microservices architecture</strong>. I specialize in <strong>Node.js</strong>, <strong>TypeScript</strong>, and <strong>Golang</strong> with a focus on <strong>performance</strong>, <strong>reliability</strong>, and <strong>maintainability</strong>. Passionate about <strong>problem-solving</strong> and continuously learning the latest technologies to drive impactful solutions.
                                 </p>
                             </div>
                             <div>
@@ -224,21 +224,21 @@ class NewLandingPage extends Component{
                                     <h5 className="vertical-timeline-element-title">Backend Developer at Telkom Indonesia</h5>
                                     <p>
                                         <ul className="ul-vertical-timeline-content">
-                                            <li>Designed and developed scalable RESTful APIs, supporting 20+ web and mobile features, improving system efficiency and maintainability.</li>
+                                            <li>Designed and developed RESTful APIs, supporting 20+ web and mobile features, improving system efficiency and maintainability.</li>
                                             <li>Developed a backend system for Ticket Management, improving automation, real-time tracking, and API integration.</li>
                                             <li>Developed a backend system for User Management with RBAC authentication using JWT to enhance security and access control.</li>
                                             <li>Developed a backend system for Attendance Management, enabling real-time tracking and attendance report analysis.</li>
                                             <li>Developed a backend system for Lead Management, enabling the sales team to track and analyze prospects to improve sales conversion.</li>
                                             <li>Contributed to developing CRM automation and personalization features, enhancing customer retention and experience.</li>
-                                            <li>Developed and optimized scalable backend services in collaboration with a 10+ member team, ensuring high performance and reliability for thousands of daily active users.</li>
+                                            <li>Developed and optimized backend services in collaboration with a 10+ member team, ensuring high performance and reliability for thousands of daily active users.</li>
                                             <li>Resolved bugs from helpdesk reports, performed troubleshooting and debugging, and refactored code to enhance system performance and stability.</li>
-                                            <li>Developed and maintained scalable backend services using Node.js, TypeScript, and Golang within a microservices architecture.</li>
-                                            <li>Worked closely with cross-functional teams (Product Owners, Developers, DevOps, QA, UI/UX, Scrum Masters) to accelerate software delivery, enhance system scalability, and improve user experience.</li>
+                                            <li>Developed and maintained backend services using Node.js, TypeScript, and Golang within a microservices architecture.</li>
+                                            <li>Worked closely with cross-functional teams (Product Owners, Developers, DevOps, QA, UI/UX, Scrum Masters) to accelerate software delivery and improve user experience.</li>
                                             <li>Collaborated in Agile teams, actively contributing to sprint planning, daily stand-ups, backlog refinement, sprint reviews, and retrospectives to enhance project execution.</li>
                                             <li>Integrated backend services with multiple external systems, ensuring seamless data flow and operational efficiency.</li>
-                                            <li>Designed, optimized, and maintained databases (MongoDB, PostgreSQL, Oracle, MySQL) to ensure high performance and scalability.</li>
+                                            <li>Designed, optimized, and maintained databases (MongoDB, PostgreSQL, Oracle, MySQL) to ensure high performance and reliability.</li>
                                             <li>Optimized API performance, reducing response time by 40% through indexing and Redis caching.</li>
-                                            <li>Applied Clean Architecture, Domain-Driven Design (DDD), CQRS, SOLID Principles, and Design Patterns to enhance code structure, scalability, and maintainability.</li>
+                                            <li>Applied Clean Architecture, Domain-Driven Design (DDD), CQRS, SOLID Principles, and Design Patterns to enhance code structure and maintainability.</li>
                                             <li>Protected sensitive data by implementing encryption techniques.</li>
                                             <li>Optimized data processing efficiency using background jobs with Bull.</li>
                                             <li>Collaborated with DevOps to implement and optimize CI/CD pipelines for automated backend deployment and testing.</li>
@@ -246,7 +246,7 @@ class NewLandingPage extends Component{
                                             <li>Optimized data search and retrieval performance using Elasticsearch.</li>
                                             <li>Implemented Event-Driven Architecture with Kafka to enable real-time communication between services.</li>
                                             <li>Ensured high-quality, stable codebase with automated tests in Mocha, Chai, and Jest.</li>
-                                            <li>Implemented cloud storage solutions using Minio and AWS S3 to enhance data availability and scalability.</li>
+                                            <li>Implemented cloud storage solutions using Minio and AWS S3 to enhance data availability and reliability.</li>
                                             <li>Integrated Firebase Cloud Messaging (FCM) to enable real-time push notifications.</li>
                                             <li>Implemented API security best practices, including Basic Authentication, JWT, Rate Limiting, and CORS, to enhance data protection and prevent unauthorized access.</li>
                                             <li>Automated task scheduling with Node Cron to streamline data updates and improve system efficiency.</li>
