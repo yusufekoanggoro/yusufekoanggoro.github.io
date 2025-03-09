@@ -314,6 +314,26 @@ class NewLandingPage extends Component{
                                     </p>
                                 </Panel>
                             </Collapse>
+                            <Collapse defaultActiveKey="0" accordion={true} style={{marginBottom: '7px'}}>
+                                <Panel header="Soft Skills" headerClass="my-header-class backend">
+                                    <p>
+                                        <ul className='ul-skills-content'>
+                                            <li>Problem Solving</li>
+                                            <li>Critical Thinking</li>
+                                            <li>Agile and Scrum Methodology</li>
+                                            <li>Communication and Collaboration</li>
+                                            <li>Adaptability</li>
+                                            <li>Time Management</li>
+                                            <li>Attention to Detail</li>
+                                            <li>Decision Making</li>
+                                            <li>Self-Learning and Continuous Improvement</li>
+                                            <li>Resilience and Patience</li>
+                                            <li>Security Awareness</li>
+                                            <li>Leadership</li>
+                                        </ul>
+                                    </p>
+                                </Panel>
+                            </Collapse>
                         </Element>
                         <Element name="Portfolio" className="portfolio-wrap">
                             <h2 className="heading-meta">My Portfolio</h2>
