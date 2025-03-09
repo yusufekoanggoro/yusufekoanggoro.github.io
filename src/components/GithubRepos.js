@@ -5,9 +5,9 @@ export default function GitHubRepos() {
   const [repos, setRepos] = useState([]);
   const username = "yusufekoanggoro";
   const exactRepoNames = [
-    "grcpc-unary-go", 
-    "AHPRecruit", 
-    "WasteBankApp", 
+    "grcpc-unary-go",
+    "AHPRecruit",
+    "WasteBankApp",
     "waste-bank-service",
     "go-solid-principle",
   ];
@@ -23,10 +23,12 @@ export default function GitHubRepos() {
       });
   }, []);
 
-  const filteredRepos = repos.filter(repo => exactRepoNames.includes(repo.name));
+  const filteredRepos = repos.filter((repo) =>
+    exactRepoNames.includes(repo.name)
+  );
 
   return (
-    <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "16px" }}>
+    <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "20px" }}>
       <ul
         style={{
           display: "grid",
@@ -41,46 +43,87 @@ export default function GitHubRepos() {
             key={repo.id}
             onClick={() => window.open(repo.html_url, "_blank")}
             style={{
-              padding: "16px",
+              padding: "20px",
               border: "1px solid #ddd",
-              borderRadius: "8px",
-              boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+              borderRadius: "12px",
+              background: "#fff",
+              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
               cursor: "pointer",
-              transition: "transform 0.2s, box-shadow 0.2s",
+              transition: "transform 0.3s ease, box-shadow 0.3s ease",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "space-between",
             }}
             onMouseOver={(e) => {
-              e.currentTarget.style.transform = "scale(1.03)";
-              e.currentTarget.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
+              e.currentTarget.style.transform = "translateY(-5px)";
+              e.currentTarget.style.boxShadow = "0 6px 12px rgba(0, 0, 0, 0.15)";
             }}
             onMouseOut={(e) => {
-              e.currentTarget.style.transform = "scale(1)";
-              e.currentTarget.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.1)";
+              e.currentTarget.style.transform = "translateY(0)";
+              e.currentTarget.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.1)";
             }}
           >
-            <a style={{ color: "#007bff", fontWeight: "bold" }}>{repo.name}</a>
+            <a
+              style={{
+                fontSize: "18px",
+                fontWeight: "bold",
+                color: "#007bff",
+                textDecoration: "none",
+                marginBottom: "8px",
+              }}
+            >
+              {repo.name}
+            </a>
             <p
               style={{
                 fontSize: "14px",
-                color: "#666",
-                overflow: "hidden",
-                textOverflow: "ellipsis",
-                whiteSpace: "nowrap",
+                color: "#555",
+                lineHeight: "1.5",
+                marginBottom: "12px",
+                minHeight: "40px",
+                textAlign: "justify",
               }}
             >
               {repo.description || "No description available"}
             </p>
-            <span
+
+            <div
               style={{
-                fontSize: "12px",
-                background: "#f0f0f0",
-                padding: "4px 8px",
-                borderRadius: "4px",
-                display: "inline-block",
-                marginTop: "8px",
+                display: "flex",
+                alignItems: "center",
+                gap: "8px",
+                flexWrap: "wrap",
               }}
             >
-              {repo.language || "Unknown"}
-            </span>
+              <span
+                style={{
+                  fontSize: "12px",
+                  background: "#f0f0f0",
+                  padding: "6px 10px",
+                  borderRadius: "6px",
+                  fontWeight: "bold",
+                  color: "#333",
+                }}
+              >
+                {repo.language || "Unknown"}
+              </span>
+            </div>
+
+            <div
+              style={{
+                marginTop: "12px",
+                fontSize: "12px",
+                color: "#444",
+                display: "flex",
+                justifyContent: "space-between",
+                borderTop: "1px solid #ddd",
+                paddingTop: "10px",
+                marginTop: "12px",
+              }}
+            >
+              <p>📅 Created: {new Date(repo.created_at).toLocaleDateString()}</p>
+              <p>🔄 Updated: {new Date(repo.updated_at).toLocaleDateString()}</p>
+            </div>
           </li>
         ))}
       </ul>
