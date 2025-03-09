@@ -224,31 +224,33 @@ class NewLandingPage extends Component{
                                     <h5 className="vertical-timeline-element-title">Backend Developer at Telkom Indonesia</h5>
                                     <p>
                                         <ul className="ul-vertical-timeline-content">
-                                            <li>Developed a Ticket Management System for ticket tracking, automated notifications, and API integration with other platforms.</li>
-                                            <li>Developed a User Management System with Role-Based Access Control (RBAC) authentication using JWT to enhance user access security.</li>
-                                            <li>Developed an Attendance Management System for real-time attendance tracking and attendance report analysis.</li>
-                                            <li>Developed a Lead Management System for the sales team to track and analyze prospects to improve sales conversion.</li>
-                                            <li>Contributed to the development of a CRM with automation and personalization features to enhance customer retention.</li>
-                                            <li>Fixed bugs from helpdesk reports, performed troubleshooting and debugging, and refactored code to ensure optimal system performance.</li>
-                                            <li>Developed and maintained backend services using Node.js, TypeScript, and Golang within a microservices architecture.</li>
-                                            <li>Collaborated with the Product Owner, Frontend and Mobile Developer, DevOps Engineer, Quality Assurance, Software Architect, UI/UX Designer, Scrum Master, and Document Engineer to develop and implement efficient and scalable backend solutions.</li>
-                                            <li>Experienced as a Lead Backend Developer in a squad, leading the design, development, and implementation of efficient backend solutions.</li>
-                                            <li>Integrated the backend with various external systems to ensure smooth data flow and efficiency.</li>
-                                            <li>Implemented Clean Architecture, Domain-Driven Design (DDD), and SOLID Principles to ensure modular, scalable, and maintainable code.</li>
-                                            <li>Designed and optimized databases (MongoDB, PostgreSQL, Oracle, MySQL, Redis) for high performance and scalability.</li>
-                                            <li>Used design patterns like Repository Pattern, Factory Pattern, and Singleton to make the code more organized and easy to manage.</li>
-                                            <li>Implemented cloud storage solutions with Minio, AWS S3, and integrated Firebase for push notifications.</li>
-                                            <li>Ensured code quality and stability through automated testing with Mocha, Chai, and Jest.</li>
-                                            <li>Used Event-Driven Architecture with Kafka for real-time communication between services.</li>
-                                            <li>Used Elasticsearch to improve data search.</li>
-                                            <li>Used the ELK Stack (Elasticsearch, Logstash, Kibana) to monitor and analyze logs.</li>
-                                            <li>Used Jenkins for CI/CD processes that were set up by the DevOps team.</li>
-                                            <li>Implemented API security best practices, including Basic Authentication, JWT, Rate Limiting, and CORS.</li>
-                                            <li>Implemented encryption and decryption to protect sensitive data.</li>
-                                            <li>Implemented automated task scheduling using Node Cron to streamline data updates.</li>
-                                            <li>Optimized large-scale data processing by developing background jobs with Bull for improved efficiency.</li>
-                                            <li>Collaborated within Agile development teams, actively participating in sprint planning, daily stand-ups, and retrospectives to drive continuous improvement and efficient project execution.</li>
-                                            <li>Used Docker for containerization and Git for version control and collaboration.</li>
+                                            <li>Designed and developed scalable RESTful APIs, supporting 20+ web and mobile features, improving system efficiency and maintainability.</li>
+                                            <li>Developed a backend system for Ticket Management, improving automation, real-time tracking, and API integration.</li>
+                                            <li>Developed a backend system for User Management with RBAC authentication using JWT to enhance security and access control.</li>
+                                            <li>Developed a backend system for Attendance Management, enabling real-time tracking and attendance report analysis.</li>
+                                            <li>Developed a backend system for Lead Management, enabling the sales team to track and analyze prospects to improve sales conversion.</li>
+                                            <li>Contributed to developing CRM automation and personalization features, enhancing customer retention and experience.</li>
+                                            <li>Developed and optimized scalable backend services in collaboration with a 10+ member team, ensuring high performance and reliability for thousands of daily active users.</li>
+                                            <li>Resolved bugs from helpdesk reports, performed troubleshooting and debugging, and refactored code to enhance system performance and stability.</li>
+                                            <li>Developed and maintained scalable backend services using Node.js, TypeScript, and Golang within a microservices architecture.</li>
+                                            <li>Worked closely with cross-functional teams (Product Owners, Developers, DevOps, QA, UI/UX, Scrum Masters) to accelerate software delivery, enhance system scalability, and improve user experience.</li>
+                                            <li>Collaborated in Agile teams, actively contributing to sprint planning, daily stand-ups, backlog refinement, sprint reviews, and retrospectives to enhance project execution.</li>
+                                            <li>Integrated backend services with multiple external systems, ensuring seamless data flow and operational efficiency.</li>
+                                            <li>Designed, optimized, and maintained databases (MongoDB, PostgreSQL, Oracle, MySQL) to ensure high performance and scalability.</li>
+                                            <li>Optimized API performance, reducing response time by 40% through indexing and Redis caching.</li>
+                                            <li>Applied Clean Architecture, Domain-Driven Design (DDD), CQRS, SOLID Principles, and Design Patterns to enhance code structure, scalability, and maintainability.</li>
+                                            <li>Protected sensitive data by implementing encryption techniques.</li>
+                                            <li>Optimized data processing efficiency using background jobs with Bull.</li>
+                                            <li>Collaborated with DevOps to implement and optimize CI/CD pipelines for automated backend deployment and testing.</li>
+                                            <li>Monitored and analyzed system logs using the ELK Stack (Elasticsearch, Logstash, Kibana) to improve performance and troubleshooting.</li>
+                                            <li>Optimized data search and retrieval performance using Elasticsearch.</li>
+                                            <li>Implemented Event-Driven Architecture with Kafka to enable real-time communication between services.</li>
+                                            <li>Ensured high-quality, stable codebase with automated tests in Mocha, Chai, and Jest.</li>
+                                            <li>Implemented cloud storage solutions using Minio and AWS S3 to enhance data availability and scalability.</li>
+                                            <li>Integrated Firebase Cloud Messaging (FCM) to enable real-time push notifications.</li>
+                                            <li>Implemented API security best practices, including Basic Authentication, JWT, Rate Limiting, and CORS, to enhance data protection and prevent unauthorized access.</li>
+                                            <li>Automated task scheduling with Node Cron to streamline data updates and improve system efficiency.</li>
+                                            <li>Led backend development in a squad, driving the design, implementation, and performance optimization of backend solutions.</li>
                                         </ul>
                                     </p>
                             </VerticalTimelineElement>
@@ -285,19 +287,29 @@ class NewLandingPage extends Component{
                                 <Panel header="Backend Developer" headerClass="my-header-class backend">
                                     <p>
                                         <ul className='ul-skills-content'>
-                                            <li>Programming Languages: JavaScript (Node.js), TypeScript, GO (Golang), Java, Laravel</li>
-                                            <li>Databases: MongoDB, Oracle, PostgreSQL, MySQL, Redis</li>
-                                            <li>Cloud & Storage: Minio, AWS S3, Firebase (Push Notification)</li>
-                                            <li>Testing: Mocha, Chai, Jest</li>
-                                            <li>Message Broker: Kafka</li>
-                                            <li>Search & Indexing: Elasticsearch</li>
-                                            <li>Monitoring & Logging: ELK Stack (Elasticsearch, Logstash, Kibana), Jenkins</li>
-                                            <li>API Development: REST API, gRPC, GraphQL</li>
-                                            <li>Authentication & Security: Basic Authentication, JWT (JSON Web Token), Rate Limiting, CORS, Encryption & Decryption</li>
-                                            <li>Background Processing & Task Scheduling: Bull, Node Cron</li>
-                                            <li>Software Architecture: Microservices, Domain-Driven Design (DDD), Clean Architecture, Event-Driven Architecture</li>
-                                            <li>Software Design: SOLID Principles, Design Patterns</li>
-                                            <li>Tools: Docker, Git</li>
+                                            <li><strong>Programming Languages:</strong> Go (Golang), JavaScript, TypeScript</li>
+                                            <li><strong>Frameworks:</strong> Gin, Echo, Fiber, Express.js</li>
+                                            <li><strong>Databases:</strong> MongoDB, PostgreSQL, Oracle, MySQL</li>
+                                            <li><strong>Caching Systems:</strong> Redis</li>
+                                            <li><strong>API Development:</strong> REST API, gRPC, GraphQL</li>
+                                            <li><strong>API Documentation:</strong> Swagger, Postman</li>
+                                            <li><strong>API Gateways:</strong> Kong Gateway</li>
+                                            <li><strong>API Integration:</strong> Third-Party API, Internal Services, Webhooks</li>
+                                            <li><strong>Testing Frameworks:</strong> Jest, Mocha, Chai</li>
+                                            <li><strong>Software Architecture:</strong> Microservices, Event-Driven Architecture, Domain-Driven Design (DDD), Clean Architecture, CQRS</li>
+                                            <li><strong>Software Design:</strong> SOLID Principles, Design Patterns, Object-Oriented Programming (OOP)</li>
+                                            <li><strong>Monitoring & Logging:</strong> Datadog, ELK Stack (Elasticsearch, Logstash, Kibana)</li>
+                                            <li><strong>Messaging:</strong> Apache Kafka (Producer, Consumer), Redis (Pub/Sub)</li>
+                                            <li><strong>DevOps & Tools:</strong> Git, Docker, Kubernetes, Jenkins, CI/CD Pipelines</li>
+                                            <li><strong>Security:</strong> Encryption, Rate Limiting, Input Validation, SQL Injection, CORS</li>
+                                            <li><strong>Authentication:</strong> Basic Auth, JWT (JSON Web Token), Role-Based Access Control (RBAC)</li>
+                                            <li><strong>Queue & Background Processing:</strong> Bull, Node Cron</li>
+                                            <li><strong>Search & Indexing:</strong> Elasticsearch</li>
+                                            <li><strong>Cloud & Storage:</strong> MinIO, AWS S3</li>
+                                            <li><strong>Push Notification:</strong> Firebase Cloud Messaging (FCM)</li>
+                                            <li><strong>Additional Skills:</strong> Java, Spring Boot, React.js, React Native, PHP, Laravel</li>
+
+
                                         </ul>
                                     </p>
                                 </Panel>
