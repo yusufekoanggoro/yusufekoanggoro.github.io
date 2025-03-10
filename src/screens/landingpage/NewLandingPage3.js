@@ -224,7 +224,7 @@ class NewLandingPage extends Component{
                                     <h5 className="vertical-timeline-element-title">Backend Developer at Telkom Indonesia</h5>
                                     <p>
                                         <ul className="ul-vertical-timeline-content">
-                                            <li>Designed and developed RESTful APIs, supporting 20+ web and mobile features, improving system efficiency and maintainability.</li>
+                                            <li> Designed and developed scalable RESTful APIs, supporting 20+ web and mobile features, improving system efficiency and maintainability.</li>
                                             <li>Developed a backend system for Ticket Management, improving automation, real-time tracking, and API integration.</li>
                                             <li>Developed a backend system for User Management with RBAC authentication using JWT to enhance security and access control.</li>
                                             <li>Developed a backend system for Attendance Management, enabling real-time tracking and attendance report analysis.</li>
