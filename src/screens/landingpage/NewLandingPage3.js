@@ -105,7 +105,7 @@ class NewLandingPage extends Component{
 
     downloadCV = () => {
         const element = document.createElement("a");
-        element.href = 'Yusuf Eko Anggoro - Resume.pdf'
+        element.href = 'Yusuf Eko Anggoro - Resume - EN.pdf'
         element.target = '_blank';
         element.download = ''
 
