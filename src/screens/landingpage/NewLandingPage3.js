@@ -305,7 +305,7 @@ class NewLandingPage extends Component{
                                             <li><strong>Authentication:</strong> Basic Auth, JWT (JSON Web Token), Role-Based Access Control (RBAC)</li>
                                             <li><strong>Queue & Background Processing:</strong> Bull, Node Cron</li>
                                             <li><strong>Search & Indexing:</strong> Elasticsearch</li>
-                                            <li><strong>Cloud & Storage:</strong> MinIO, AWS S3</li>
+                                            <li><strong>Cloud Services:</strong>AWS S3, AWS EC2</li>
                                             <li><strong>Push Notification:</strong> Firebase Cloud Messaging (FCM)</li>
                                             <li><strong>Additional Skills:</strong> Java, Spring Boot, React.js, React Native, PHP, Laravel</li>
 
