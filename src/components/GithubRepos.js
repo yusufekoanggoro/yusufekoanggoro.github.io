@@ -10,7 +10,8 @@ export default function GitHubRepos() {
     "WasteBankApp",
     "waste-bank-service",
     "go-solid-principle",
-    "ec2-node-deployer"
+    "ec2-node-deployer",
+    "oauth-app",
   ];
 
   useEffect(() => {
