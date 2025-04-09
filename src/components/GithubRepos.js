@@ -12,6 +12,7 @@ export default function GitHubRepos() {
     "go-solid-principle",
     "ec2-node-deployer",
     "oauth-app",
+    "goroutine-examples"
   ];
 
   useEffect(() => {
