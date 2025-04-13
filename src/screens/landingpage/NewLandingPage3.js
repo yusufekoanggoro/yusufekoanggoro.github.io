@@ -131,7 +131,7 @@ class NewLandingPage extends Component{
                             <h1 className='full-name'>
                                 <a>Yusuf Eko Anggoro</a>
                             </h1>
-                            <span className="position"><a href="">Backend Developer</a></span>
+                            <span className="position"><a href="">Backend Engineer</a></span>
                         </div>
                         <div className='nav'>
                             <ul>
@@ -162,7 +162,7 @@ class NewLandingPage extends Component{
                             <h1 className='full-name'>
                                 <a>Yusuf Eko Anggoro</a>
                             </h1>
-                            <span className="position"><a href="">Backend Developer</a></span>
+                            <span className="position"><a href="">Backend Engineer</a></span>
                         </div>
                         <div className='nav'>
                             <ul>
@@ -203,7 +203,7 @@ class NewLandingPage extends Component{
                             <h2 className="heading-meta">About Me</h2>
                             <div className='desc'>
                                 <p style={{textAlign: 'justify', textJustify: 'inter-word'}}>
-                                    I'm <strong>Yusuf Eko Anggoro</strong>, a <strong>Backend Developer</strong> with over <strong>5 years of experience</strong> developing and optimizing <strong> microservices architecture</strong>. I specialize in <strong>Node.js</strong>, <strong>TypeScript</strong>, and <strong>Golang</strong> with a focus on <strong>performance</strong>, <strong>reliability</strong>, and <strong>maintainability</strong>. Passionate about <strong>problem-solving</strong> and continuously learning the latest technologies to drive impactful solutions.
+                                    I'm <strong>Yusuf Eko Anggoro</strong>, a <strong>Backend Engineer</strong> with over <strong>5 years of experience</strong> developing and optimizing <strong> microservices architecture</strong>. I specialize in <strong>Node.js</strong>, <strong>TypeScript</strong>, and <strong>Golang</strong> with a focus on <strong>performance</strong>, <strong>reliability</strong>, and <strong>maintainability</strong>. Passionate about <strong>problem-solving</strong> and continuously learning the latest technologies to drive impactful solutions.
                                 </p>
                             </div>
                             <div>
@@ -221,7 +221,7 @@ class NewLandingPage extends Component{
                                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                                     icon={<FaPencilAlt/>}
                                 >
-                                    <h5 className="vertical-timeline-element-title">Backend Developer at Telkom Indonesia</h5>
+                                    <h5 className="vertical-timeline-element-title">Backend Engineer at Telkom Indonesia</h5>
                                     <p>
                                         <ul className="ul-vertical-timeline-content">
                                             <li>Designed and developed a RESTful API to support 20+ web and mobile features, enhancing system efficiency and maintainability.</li>
@@ -284,7 +284,7 @@ class NewLandingPage extends Component{
                         <Element name="Skills" className="skills-wrap">
                             <h2 className="heading-meta">My Skills</h2>
                             <Collapse defaultActiveKey="0" accordion={true} style={{marginBottom: '7px'}}>
-                                <Panel header="Backend Developer" headerClass="my-header-class backend">
+                                <Panel header="Backend Engineer" headerClass="my-header-class backend">
                                     <p>
                                         <ul className='ul-skills-content'>
                                             <li><strong>Programming Languages:</strong> Go (Golang), JavaScript, TypeScript</li>
