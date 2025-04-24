@@ -223,7 +223,8 @@ class NewLandingPage extends Component{
                                 >
                                     <h5 className="vertical-timeline-element-title">Backend Engineer at Telkom Indonesia</h5>
                                     <p>
-                                        <ul className="ul-vertical-timeline-content">
+                                        Project: MyTEnS - Internal CRM (Lead Mgt, Ticket Mgt, User Mgt, Presence, Gamification, Notification)
+                                        {/* <ul className="ul-vertical-timeline-content">
                                             <li>Designed and developed a RESTful API to support 20+ web and mobile features, enhancing system efficiency and maintainability.</li>
                                             <li>Developed a backend system for Ticket Management, improving automation, real-time tracking, and API integration.</li>
                                             <li>Developed a backend system for User Management with RBAC authentication using JWT to enhance security and access control.</li>
@@ -251,6 +252,26 @@ class NewLandingPage extends Component{
                                             <li>Implemented API security best practices, including Basic Authentication, JWT, Rate Limiting, and CORS, to enhance data protection and prevent unauthorized access.</li>
                                             <li>Automated task scheduling with Node Cron to streamline data updates and improve system efficiency.</li>
                                             <li>Led backend development in a squad, driving the design, implementation, and performance optimization of backend solutions.</li>
+                                        </ul> */}
+                                        <ul className="ul-vertical-timeline-content">
+                                            <li>Developed 25+ RESTful APIs using Go, Node.js & TypeScript, enhancing 20+ web & mobile features.</li>
+                                            <li>Responsible for production environments, ensuring high availability and minimal downtime.</li>
+                                            <li>Enhanced API performance by reducing response time from 700ms to 100ms through indexing and Redis caching, improving data processing speed and user experience.</li>
+                                            <li>Integrated with third-party services to extend system capabilities and automate workflows.</li>
+                                            <li>Revamped the microservices architecture by integrating Kafka for asynchronous communication, cutting inter-service latency by 60ms and enhancing overall system responsiveness.</li>
+                                            <li>Collaborated with 6+ cross-functional teams (Product Owners, Developers, DevOps, QA, UI/UX, and Scrum Masters) to enhance development efficiency, accelerating software delivery by 25%.</li>
+                                            <li>Created and customized dashboards in Kibana to visualize application logs, metrics, and performance indicators, enabling faster issue diagnosis and better decision-making.</li>
+                                            <li>Applied Clean Architecture, Domain-Driven Design (DDD), CQRS, SOLID Principles, and Design Patterns, reducing code complexity by 30% and improving maintainability.</li>
+                                            <li>Ensured code quality and stability through 100+ automated tests using Mocha, Chai, and Jest, reducing bugs by 60%, improving system reliability, and accelerating development.</li>
+                                            <li>Architected backend services integrated with 10+ external systems, ensuring seamless data flow and improving operational efficiency by 45%.</li>
+                                            <li>Fixed 50+ critical bugs from helpdesk reports, performed debugging, and refactored code, improving system performance, stability, and reliability.</li>
+                                            <li>Implemented API security best practices, including Basic Authentication, JWT, Rate Limiting, and CORS, reducing security vulnerabilities by 70%.</li>
+                                            <li>Led backend development within the team, designing, executing, and optimizing backend solutions, contributing to a 20% increase in team productivity.</li>
+                                            <li>Acted as a maintainer by reviewing 200+ pull requests, ensuring code quality, enforcing best practices, and mentoring team members to maintain high development standards.</li>
+                                            <li>Monitored and analyzed system logs using the ELK Stack (Elasticsearch, Logstash, Kibana), reducing issue resolution time by 50%.</li>
+                                            <li>Structured, optimized, and maintained databases (MongoDB, PostgreSQL, Oracle, MySQL), improving query efficiency by 35% and ensuring 99.9% system uptime.</li>
+                                            <li>Collaborated with DevOps to streamline and optimize CI/CD pipelines, reducing deployment time by 40% and enhancing automated testing efficiency.</li>
+                                            <li>Integrated encryption techniques to protect sensitive data, preventing unauthorized access and ensuring 100% compliance with security standards.</li>
                                         </ul>
                                     </p>
                             </VerticalTimelineElement>
