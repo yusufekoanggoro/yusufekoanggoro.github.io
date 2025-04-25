@@ -308,8 +308,8 @@ class NewLandingPage extends Component{
                                 <Panel header="Backend Engineer" headerClass="my-header-class backend">
                                     <p>
                                         <ul className='ul-skills-content'>
-                                            <li><strong>Programming Languages:</strong> Go (Golang), JavaScript, TypeScript</li>
-                                            <li><strong>Frameworks:</strong> Gin, Echo, Fiber, Express.js</li>
+                                            <li><strong>Programming Languages:</strong> Node.js, Go (Golang), TypeScript, PHP, Java</li>
+                                            <li><strong>Frameworks:</strong> Express.js, Gin, Echo, Fiber, Laravel</li>
                                             <li><strong>Databases:</strong> MongoDB, PostgreSQL, Oracle, MySQL</li>
                                             <li><strong>Caching Systems:</strong> Redis</li>
                                             <li><strong>API Development:</strong> REST API, gRPC, GraphQL</li>
