@@ -13,7 +13,8 @@ export default function GitHubRepos() {
     "ec2-node-deployer",
     "oauth-app",
     "goroutine-examples",
-    "library-api-microservices"
+    "library-api-microservices",
+    "grafana-dashboard-backend",
   ];
 
   useEffect(() => {
@@ -32,11 +33,11 @@ export default function GitHubRepos() {
   );
 
   return (
-    <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0" }}>
+    <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "16px" }}>
       <ul
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
           gap: "16px",
           listStyle: "none",
           padding: 0,
@@ -56,7 +57,7 @@ export default function GitHubRepos() {
               transition: "transform 0.3s ease, box-shadow 0.3s ease",
               display: "flex",
               flexDirection: "column",
-              justifyContent: "space-between",
+              height: "100%",
             }}
             onMouseOver={(e) => {
               e.currentTarget.style.transform = "translateY(-5px)";
@@ -67,50 +68,53 @@ export default function GitHubRepos() {
               e.currentTarget.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.1)";
             }}
           >
-            <a
-              style={{
-                fontSize: "18px",
-                fontWeight: "bold",
-                color: "#007bff",
-                textDecoration: "none",
-                marginBottom: "8px",
-              }}
-            >
-              {repo.name}
-            </a>
-            <p
-              style={{
-                fontSize: "14px",
-                color: "#555",
-                lineHeight: "1.5",
-                marginBottom: "12px",
-                minHeight: "40px",
-                textAlign: "justify",
-              }}
-            >
-              {repo.description || "No description available"}
-            </p>
-
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "8px",
-                flexWrap: "wrap",
-              }}
-            >
-              <span
+            <div style={{ flexGrow: 1 }}>
+              <h3
                 style={{
-                  fontSize: "12px",
-                  background: "#f0f0f0",
-                  padding: "6px 10px",
-                  borderRadius: "6px",
+                  fontSize: "clamp(16px, 2vw, 18px)",
                   fontWeight: "bold",
-                  color: "#333",
+                  color: "#007bff",
+                  margin: "0 0 8px",
+                  wordBreak: "break-word",
                 }}
               >
-                {repo.language || "Unknown"}
-              </span>
+                {repo.name}
+              </h3>
+
+              <p
+                style={{
+                  fontSize: "clamp(13px, 1.5vw, 14px)",
+                  color: "#555",
+                  lineHeight: "1.5",
+                  marginBottom: "12px",
+                  textAlign: "justify",
+                  overflowWrap: "break-word",
+                }}
+              >
+                {repo.description || "No description available"}
+              </p>
+
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  flexWrap: "wrap",
+                }}
+              >
+                <span
+                  style={{
+                    fontSize: "12px",
+                    background: "#f0f0f0",
+                    padding: "6px 10px",
+                    borderRadius: "6px",
+                    fontWeight: "bold",
+                    color: "#333",
+                  }}
+                >
+                  {repo.language || "Unknown"}
+                </span>
+              </div>
             </div>
 
             <div
@@ -122,7 +126,8 @@ export default function GitHubRepos() {
                 justifyContent: "space-between",
                 borderTop: "1px solid #ddd",
                 paddingTop: "10px",
-                marginTop: "12px",
+                flexWrap: "wrap",
+                gap: "8px",
               }}
             >
               <p>📅 Created: {new Date(repo.created_at).toLocaleDateString()}</p>
