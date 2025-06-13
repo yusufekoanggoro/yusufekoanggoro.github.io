@@ -270,7 +270,7 @@ class NewLandingPage extends Component{
                                             <li>Led backend development initiatives by creating and assigning subtasks to team members, ensuring efficient project execution and collaboration.</li>
                                             <li>Acted as a maintainer by reviewing 50+ pull requests, ensuring code quality, enforcing best practices, and mentoring team members to maintain high development standards.</li>
                                             <li>Monitored and analyzed system logs using the ELK Stack (Elasticsearch, Logstash, Kibana), reducing issue resolution time by 50%.</li>
-                                            <li>Designed MongoDB schema to support efficient data access and performance optimization; performed SQL queries and data analysis using PostgreSQL, Oracle, and MySQL.</li>
+                                            <li>Designed MongoDB schema to support efficient data access and performance optimization; wrote SQL queries in PostgreSQL and Oracle to support backend APIs and business dashboards.</li>
                                             <li>Collaborated with the DevOps team to troubleshoot and resolve CI/CD pipeline failures, ensuring deployment stability.</li>
                                             <li>Integrated encryption techniques to protect sensitive data, preventing unauthorized access and ensuring 100% compliance with security standards.</li>
                                         </ul>
