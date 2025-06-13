@@ -224,7 +224,7 @@ class NewLandingPage extends Component{
                                     <h5 className="vertical-timeline-element-title">Backend Developer at Telkom Indonesia</h5>
                                     <p>
                                         Project: MyTEnS - Internal CRM<br></br>
-                                        Servies: User, Catalog, Lead, Buying, Notification, Gamification, Ticket, Worker, Dashboard
+                                        Services: User, Catalog, Lead, Buying, Notification, Gamification, Ticket, Worker, Dashboard
                                         {/* <ul className="ul-vertical-timeline-content">
                                             <li>Designed and developed a RESTful API to support 20+ web and mobile features, enhancing system efficiency and maintainability.</li>
                                             <li>Developed a backend system for Ticket Management, improving automation, real-time tracking, and API integration.</li>
