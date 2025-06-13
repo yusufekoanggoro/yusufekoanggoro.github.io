@@ -131,7 +131,7 @@ class NewLandingPage extends Component{
                             <h1 className='full-name'>
                                 <a>Yusuf Eko Anggoro</a>
                             </h1>
-                            <span className="position"><a href="">Backend Engineer</a></span>
+                            <span className="position"><a href="">Backend Developer</a></span>
                         </div>
                         <div className='nav'>
                             <ul>
@@ -162,7 +162,7 @@ class NewLandingPage extends Component{
                             <h1 className='full-name'>
                                 <a>Yusuf Eko Anggoro</a>
                             </h1>
-                            <span className="position"><a href="">Backend Engineer</a></span>
+                            <span className="position"><a href="">Backend Developer</a></span>
                         </div>
                         <div className='nav'>
                             <ul>
@@ -203,7 +203,7 @@ class NewLandingPage extends Component{
                             <h2 className="heading-meta">About Me</h2>
                             <div className='desc'>
                                 <p style={{textAlign: 'justify', textJustify: 'inter-word'}}>
-                                    I'm <strong>Yusuf Eko Anggoro</strong>, a <strong>Backend Engineer</strong> with over <strong>5 years of experience</strong> developing and optimizing <strong> microservices architecture</strong>. I specialize in <strong>Node.js</strong>, <strong>TypeScript</strong>, and <strong>Golang</strong> with a focus on <strong>performance</strong>, <strong>reliability</strong>, and <strong>maintainability</strong>. Passionate about <strong>problem-solving</strong> and continuously learning the latest technologies to drive impactful solutions.
+                                    I'm <strong>Yusuf Eko Anggoro</strong>, a <strong>Backend Developer</strong> with over <strong>5 years of experience</strong> developing and optimizing <strong> microservices architecture</strong>. I specialize in <strong>Node.js</strong>, <strong>TypeScript</strong>, and <strong>Golang</strong> with a focus on <strong>performance</strong>, <strong>reliability</strong>, and <strong>maintainability</strong>. Passionate about <strong>problem-solving</strong> and continuously learning the latest technologies to drive impactful solutions.
                                 </p>
                             </div>
                             <div>
@@ -221,9 +221,10 @@ class NewLandingPage extends Component{
                                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                                     icon={<FaPencilAlt/>}
                                 >
-                                    <h5 className="vertical-timeline-element-title">Backend Engineer at Telkom Indonesia</h5>
+                                    <h5 className="vertical-timeline-element-title">Backend Developer at Telkom Indonesia</h5>
                                     <p>
-                                        Project: MyTEnS - Internal CRM (Lead Mgt, Ticket Mgt, User Mgt, Presence, Gamification, Notification)
+                                        Project: MyTEnS - Internal CRM<br></br>
+                                        Servies: User, Catalog, Lead, Buying, Notification, Gamification, Ticket, Worker, Dashboard
                                         {/* <ul className="ul-vertical-timeline-content">
                                             <li>Designed and developed a RESTful API to support 20+ web and mobile features, enhancing system efficiency and maintainability.</li>
                                             <li>Developed a backend system for Ticket Management, improving automation, real-time tracking, and API integration.</li>
@@ -254,23 +255,23 @@ class NewLandingPage extends Component{
                                             <li>Led backend development in a squad, driving the design, implementation, and performance optimization of backend solutions.</li>
                                         </ul> */}
                                         <ul className="ul-vertical-timeline-content">
-                                            <li>Developed 25+ RESTful APIs using Go, Node.js & TypeScript, enhancing 20+ web & mobile features.</li>
-                                            <li>Responsible for production environments, ensuring high availability and minimal downtime.</li>
+                                            <li>Designed and developed 25+ RESTful APIs using Go, Node.js & TypeScript, supporting 20+ web & mobile features.</li>
+                                            <li>Created custom job schedulers for background tasks such as automated report generation, email notifications, and data synchronization.</li>
+                                            <li>Responsible for production environments to ensure high availability.</li>
                                             <li>Enhanced API performance by reducing response time from 700ms to 100ms through indexing and Redis caching, improving data processing speed and user experience.</li>
                                             <li>Integrated with third-party services to extend system capabilities and automate workflows.</li>
-                                            <li>Revamped the microservices architecture by integrating Kafka for asynchronous communication, cutting inter-service latency by 60ms and enhancing overall system responsiveness.</li>
+                                            <li>Revamped the microservices architecture by integrating Kafka for asynchronous communication, cutting inter-service latency by 60ms, and enhancing overall system responsiveness.</li>
                                             <li>Collaborated with 6+ cross-functional teams (Product Owners, Developers, DevOps, QA, UI/UX, and Scrum Masters) to enhance development efficiency, accelerating software delivery by 25%.</li>
                                             <li>Created and customized dashboards in Kibana to visualize application logs, metrics, and performance indicators, enabling faster issue diagnosis and better decision-making.</li>
-                                            <li>Applied Clean Architecture, Domain-Driven Design (DDD), CQRS, SOLID Principles, and Design Patterns, reducing code complexity by 30% and improving maintainability.</li>
-                                            <li>Ensured code quality and stability through 100+ automated tests using Mocha, Chai, and Jest, reducing bugs by 60%, improving system reliability, and accelerating development.</li>
-                                            <li>Architected backend services integrated with 10+ external systems, ensuring seamless data flow and improving operational efficiency by 45%.</li>
-                                            <li>Fixed 50+ critical bugs from helpdesk reports, performed debugging, and refactored code, improving system performance, stability, and reliability.</li>
-                                            <li>Implemented API security best practices, including Basic Authentication, JWT, Rate Limiting, and CORS, reducing security vulnerabilities by 70%.</li>
-                                            <li>Led backend development within the team, designing, executing, and optimizing backend solutions, contributing to a 20% increase in team productivity.</li>
-                                            <li>Acted as a maintainer by reviewing 200+ pull requests, ensuring code quality, enforcing best practices, and mentoring team members to maintain high development standards.</li>
+                                            <li>Applied Clean Architecture, SOLID Principles, and Design Patterns, reducing code complexity by 30% and improving maintainability.</li>
+                                            <li>Ensured code quality and stability through 100+ automated tests using Mocha, Chai, Sinon, and Jest. Reducing bugs by 60%, improving system reliability, and accelerating development.</li>
+                                            <li>Resolved 50+ critical bugs from helpdesk reports by debugging, refactoring code, and maintaining legacy systems, improving system performance, stability, and reliability.</li>
+                                            <li>Implemented API security best practices, including Basic Authentication, JWT, Rate Limiting, CORS, and SQL Injection prevention techniques, reducing security vulnerabilities by 70%.</li>
+                                            <li>Led backend development initiatives by creating and assigning subtasks to team members, ensuring efficient project execution and collaboration.</li>
+                                            <li>Acted as a maintainer by reviewing 50+ pull requests, ensuring code quality, enforcing best practices, and mentoring team members to maintain high development standards.</li>
                                             <li>Monitored and analyzed system logs using the ELK Stack (Elasticsearch, Logstash, Kibana), reducing issue resolution time by 50%.</li>
-                                            <li>Structured, optimized, and maintained databases (MongoDB, PostgreSQL, Oracle, MySQL), improving query efficiency by 35% and ensuring 99.9% system uptime.</li>
-                                            <li>Collaborated with DevOps to streamline and optimize CI/CD pipelines, reducing deployment time by 40% and enhancing automated testing efficiency.</li>
+                                            <li>Designed MongoDB schema to support efficient data access and performance optimization; performed SQL queries and data analysis using PostgreSQL, Oracle, and MySQL.</li>
+                                            <li>Collaborated with the DevOps team to troubleshoot and resolve CI/CD pipeline failures, ensuring deployment stability.</li>
                                             <li>Integrated encryption techniques to protect sensitive data, preventing unauthorized access and ensuring 100% compliance with security standards.</li>
                                         </ul>
                                     </p>
@@ -305,31 +306,137 @@ class NewLandingPage extends Component{
                         <Element name="Skills" className="skills-wrap">
                             <h2 className="heading-meta">My Skills</h2>
                             <Collapse defaultActiveKey="0" accordion={true} style={{marginBottom: '7px'}}>
-                                <Panel header="Backend Engineer" headerClass="my-header-class backend">
+                                <Panel header="Backend Developer" headerClass="my-header-class backend">
                                     <p>
                                         <ul className='ul-skills-content'>
-                                            <li><strong>Programming Languages:</strong> Node.js, Go (Golang), TypeScript, PHP, Java</li>
-                                            <li><strong>Frameworks:</strong> Express.js, Gin, Echo, Fiber, Laravel</li>
-                                            <li><strong>Databases:</strong> MongoDB, PostgreSQL, Oracle, MySQL</li>
-                                            <li><strong>Caching Systems:</strong> Redis</li>
-                                            <li><strong>API Development:</strong> REST API, gRPC, GraphQL</li>
-                                            <li><strong>API Documentation:</strong> Swagger, Postman</li>
-                                            <li><strong>API Gateways:</strong> Kong Gateway</li>
-                                            <li><strong>API Integration:</strong> Third-Party API, Internal Services, Webhooks</li>
-                                            <li><strong>Testing Frameworks:</strong> Jest, Mocha, Chai</li>
-                                            <li><strong>Software Architecture:</strong> Microservices, Event-Driven Architecture, Domain-Driven Design (DDD), Clean Architecture, CQRS</li>
-                                            <li><strong>Software Design:</strong> SOLID Principles, Design Patterns, Object-Oriented Programming (OOP)</li>
-                                            <li><strong>Monitoring & Logging:</strong> Datadog, ELK Stack (Elasticsearch, Logstash, Kibana)</li>
-                                            <li><strong>Messaging:</strong> Apache Kafka (Producer, Consumer), Redis (Pub/Sub)</li>
-                                            <li><strong>DevOps & Tools:</strong> Git, Docker, Kubernetes, Jenkins, CI/CD Pipelines</li>
-                                            <li><strong>Security:</strong> Encryption, Rate Limiting, Input Validation, SQL Injection, CORS</li>
-                                            <li><strong>Authentication:</strong> Basic Auth, JWT (JSON Web Token), Role-Based Access Control (RBAC)</li>
-                                            <li><strong>Queue & Background Processing:</strong> Bull, Node Cron</li>
-                                            <li><strong>Search & Indexing:</strong> Elasticsearch</li>
-                                            <li><strong>Cloud Services:</strong>AWS S3, AWS EC2</li>
-                                            <li><strong>Push Notification:</strong> Firebase Cloud Messaging (FCM)</li>
-                                            <li><strong>Additional Skills:</strong> Java, Spring Boot, React.js, React Native, PHP, Laravel</li>
-
+                                            <li><strong>Programming Languages</strong>
+                                                <ul>
+                                                <li>JavaScript</li>
+                                                <li>Go</li>
+                                                <li>Java</li>
+                                                <li>TypeScript</li>
+                                                <li>PHP</li>
+                                                <li>Python</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>API Development</strong>
+                                                <ul>
+                                                <li>REST API</li>
+                                                <li>gRPC</li>
+                                                <li>GraphQL</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Databases</strong>
+                                                <ul>
+                                                <li>PostgreSQL</li>
+                                                <li>MongoDB</li>
+                                                <li>Oracle</li>
+                                                <li>MySQL</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Software Architecture</strong>
+                                                <ul>
+                                                <li>Microservices</li>
+                                                <li>Event-Driven Architecture</li>
+                                                <li>Clean Architecture</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Monitoring and Logging</strong>
+                                                <ul>
+                                                <li>Datadog</li>
+                                                <li>ELK Stack (Elasticsearch, Logstash, Kibana)</li>
+                                                <li>Prometheus + Grafana</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Frameworks</strong>
+                                                <ul>
+                                                <li>Express.js</li>
+                                                <li>Gin</li>
+                                                <li>Echo</li>
+                                                <li>Fiber</li>
+                                                <li>Laravel</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>API Documentation</strong>
+                                                <ul>
+                                                <li>Swagger</li>
+                                                <li>Postman</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Testing Frameworks</strong>
+                                                <ul>
+                                                <li>Mocha</li>
+                                                <li>Chai (assertion)</li>
+                                                <li>Sinon (mock)</li>
+                                                <li>Jest</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Software Design</strong>
+                                                <ul>
+                                                <li>SOLID Principles</li>
+                                                <li>Design Patterns</li>
+                                                <li>Object-Oriented Programming (OOP)</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>DevOps and Tools</strong>
+                                                <ul>
+                                                <li>Git</li>
+                                                <li>Docker</li>
+                                                <li>Kubernetes</li>
+                                                <li>Jenkins</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Messaging</strong>
+                                                <ul>
+                                                <li>Kafka (Producer, Consumer)</li>
+                                                <li>Redis Pub/Sub</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Security</strong>
+                                                <ul>
+                                                <li>Encryption</li>
+                                                <li>Rate Limiting</li>
+                                                <li>Input Validation</li>
+                                                <li>SQL Injection Prevention</li>
+                                                <li>CORS</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Authentication</strong>
+                                                <ul>
+                                                <li>Basic Authentication</li>
+                                                <li>JWT Authentication</li>
+                                                <li>OAuth 2.0</li>
+                                                <li>Role-Based Access Control (RBAC)</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Cloud Services</strong>
+                                                <ul>
+                                                <li>AWS S3</li>
+                                                <li>AWS EC2</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Search and Indexing</strong>
+                                                <ul>
+                                                <li>Elasticsearch (Full-Text Search, Search Engine)</li>
+                                                <li>Kibana (Data Visualization)</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Caching Systems</strong>
+                                                <ul>
+                                                <li>Redis</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Push Notification</strong>
+                                                <ul>
+                                                <li>Firebase Cloud Messaging (FCM)</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Task Queues and Scheduling</strong>
+                                                <ul>
+                                                <li>BullMQ</li>
+                                                <li>Node Cron</li>
+                                                </ul>
+                                            </li>
 
                                         </ul>
                                     </p>
