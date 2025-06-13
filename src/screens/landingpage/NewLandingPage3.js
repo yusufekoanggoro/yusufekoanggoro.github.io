@@ -284,8 +284,8 @@ class NewLandingPage extends Component{
                                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                                     icon={<FaPencilAlt/>}
                                 >
-                                    <h5 className="vertical-timeline-element-title">Graduated as Full Stack Developer at Arkademy</h5>
-                                    <p className="p-vertical-timeline-content">Arkademy is a software engineering program that provides a 6 weeks hands-on coding curriculum that focuses on mobile development with React Native and Node.js.</p>
+                                    <h5 className="vertical-timeline-element-title">Full Stack Developer at Pijar Camp</h5>
+                                    <p className="p-vertical-timeline-content">Pijar Camp is a software engineering program that provides a 6-week hands-on coding curriculum that focuses on mobile development with React Native and Node.js</p>
                                 </VerticalTimelineElement>
                             </VerticalTimeline>
                         </Element>
