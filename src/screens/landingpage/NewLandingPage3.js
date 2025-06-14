@@ -131,7 +131,7 @@ class NewLandingPage extends Component{
                             <h1 className='full-name'>
                                 <a>Yusuf Eko Anggoro</a>
                             </h1>
-                            <span className="position"><a href="">Backend Developer</a></span>
+                            <span className="position"><a href="">Backend Engineer</a></span>
                         </div>
                         <div className='nav'>
                             <ul>
@@ -162,7 +162,7 @@ class NewLandingPage extends Component{
                             <h1 className='full-name'>
                                 <a>Yusuf Eko Anggoro</a>
                             </h1>
-                            <span className="position"><a href="">Backend Developer</a></span>
+                            <span className="position"><a href="">Backend Engineer</a></span>
                         </div>
                         <div className='nav'>
                             <ul>
@@ -306,7 +306,7 @@ class NewLandingPage extends Component{
                         <Element name="Skills" className="skills-wrap">
                             <h2 className="heading-meta">My Skills</h2>
                             <Collapse defaultActiveKey="0" accordion={true} style={{marginBottom: '7px'}}>
-                                <Panel header="Backend Developer" headerClass="my-header-class backend">
+                                <Panel header="Backend Skills" headerClass="my-header-class backend">
                                     <p>
                                         <ul className='ul-skills-content'>
                                             <li><strong>Programming Languages</strong>
