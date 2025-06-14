@@ -257,10 +257,11 @@ class NewLandingPage extends Component{
                                         <ul className="ul-vertical-timeline-content">
                                             <li>Designed and developed 25+ RESTful APIs using Go, Node.js & TypeScript, supporting 20+ web & mobile features.</li>
                                             <li>Created custom job schedulers for background tasks such as automated report generation, email notifications, and data synchronization.</li>
+                                            <li>Integrated scalable object‑storage solutions with MinIO and Amazon S3.</li>
                                             <li>Responsible for production environments to ensure high availability.</li>
                                             <li>Enhanced API performance by reducing response time from 700ms to 100ms through indexing and Redis caching, improving data processing speed and user experience.</li>
                                             <li>Integrated with third-party services to extend system capabilities and automate workflows.</li>
-                                            <li>Revamped the microservices architecture by integrating Kafka for asynchronous communication, cutting inter-service latency by 60ms, and enhancing overall system responsiveness.</li>
+                                            <li>Integrated Apache Kafka for asynchronous communication between microservices.</li>
                                             <li>Collaborated with 6+ cross-functional teams (Product Owners, Developers, DevOps, QA, UI/UX, and Scrum Masters) to enhance development efficiency, accelerating software delivery by 25%.</li>
                                             <li>Created and customized dashboards in Kibana to visualize application logs, metrics, and performance indicators, enabling faster issue diagnosis and better decision-making.</li>
                                             <li>Applied Clean Architecture, SOLID Principles, and Design Patterns, reducing code complexity by 30% and improving maintainability.</li>
@@ -268,11 +269,12 @@ class NewLandingPage extends Component{
                                             <li>Resolved 50+ critical bugs from helpdesk reports by debugging, refactoring code, and maintaining legacy systems, improving system performance, stability, and reliability.</li>
                                             <li>Implemented API security best practices, including Basic Authentication, JWT, Rate Limiting, CORS, and SQL Injection prevention techniques, reducing security vulnerabilities by 70%.</li>
                                             <li>Led backend development initiatives by creating and assigning subtasks to team members, ensuring efficient project execution and collaboration.</li>
-                                            <li>Acted as a maintainer by reviewing 50+ pull requests, ensuring code quality, enforcing best practices, and mentoring team members to maintain high development standards.</li>
+                                            <li>Reviewed 50+ pull requests as a maintainer to ensure code quality and enforce best practices; collaborated with team members through pair programming to improve development standards.</li>
                                             <li>Monitored and analyzed system logs using the ELK Stack (Elasticsearch, Logstash, Kibana), reducing issue resolution time by 50%.</li>
                                             <li>Designed MongoDB schema to support efficient data access and performance optimization; wrote SQL queries in PostgreSQL and Oracle to support backend APIs and business dashboards.</li>
                                             <li>Collaborated with the DevOps team to troubleshoot and resolve CI/CD pipeline failures, ensuring deployment stability.</li>
                                             <li>Integrated encryption techniques to protect sensitive data, preventing unauthorized access and ensuring 100% compliance with security standards.</li>
+                                            <li>Built a modular BullMQ queue for asynchronous PDF generation, making the process faster and improving reliability.</li>
                                         </ul>
                                     </p>
                             </VerticalTimelineElement>
