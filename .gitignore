@@ -1,0 +1,15 @@
+# Next.js build folder
+.next/
+
+# Dependencies
+node_modules/
+
+# SWC cache
+.swc/
+
+# Optional: OS files, logs
+.DS_Store
+*.log
+
+# Environment variables
+.env
