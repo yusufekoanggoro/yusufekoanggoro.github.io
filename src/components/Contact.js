@@ -35,14 +35,14 @@ const Contact = () => {
           <div className="connect">
             <div className="left">
               <ul>
-                <li>
+                {/* <li>
                   <span className="name">WhatsApp Me:</span>
                   <p>
                     <a className="line_effect" href="https://wa.me/6281234567890">
                       +62 859 3453 1182
                     </a>
                   </p>
-                </li>
+                </li> */}
                 <li>
                   <span className="name">Email:</span>
                   <p>
