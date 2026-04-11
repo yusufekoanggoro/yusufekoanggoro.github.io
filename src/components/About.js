@@ -27,7 +27,7 @@ const About = () => {
             </div>
             <div className="short">
               <div className="orido_tm_boxed_button">
-                <a href="Yusuf Eko Anggoro - Resume - EN.pdf" download>
+                <a href="Yusuf Eko Anggoro - Resume - EN.pdf" download disable>
                   Download CV{" "}
                   <img className="svg" src="img/svg/paper.svg" alt="" />
                 </a>
