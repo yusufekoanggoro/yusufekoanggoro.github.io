@@ -32,7 +32,7 @@ const About = () => {
                   <img className="svg" src="img/svg/paper.svg" alt="" />
                 </a>
               </div>
-              <img src="img/signature.png" alt="" />
+              {/* <img src="img/signature.png" alt="" /> */}
             </div>
           </div>
         </div>
