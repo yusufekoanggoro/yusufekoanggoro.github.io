@@ -26,12 +26,12 @@ const About = () => {
               </p>
             </div>
             <div className="short">
-              <div className="orido_tm_boxed_button">
+              {/* <div className="orido_tm_boxed_button">
                 <a href="Yusuf Eko Anggoro - Resume - EN.pdf" download disable>
                   Download CV{" "}
                   <img className="svg" src="img/svg/paper.svg" alt="" />
                 </a>
-              </div>
+              </div> */}
               {/* <img src="img/signature.png" alt="" /> */}
             </div>
           </div>
